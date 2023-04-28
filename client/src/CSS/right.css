@@ -3,3 +3,65 @@
     width: 50vw;
     height: 100vh;
 }
+
+.carouselImage {
+    padding: 0 4vw 0 4vw;
+    width: 15vw;
+}
+
+aside {
+    display: flex;
+    justify-content: space-between;
+}
+
+.asideLeft {
+    transition: transform 5s;
+}
+
+aside .asideLeft {
+    animation: top-to-bottom 5s infinite;
+}
+
+@keyframes top-to-bottom {
+    0% {
+        transform: translateX(0) translateY(0);
+    }
+    25% {
+        transform: translateX(0) translateY(100%);
+    }
+    50% {
+        transform: translateX(100%) translateY(100%);
+    }
+    75% {
+        transform: translateX(100%) translateY(0);
+    }
+    100% {
+        transform: translateX(0) translateY(0);
+    }
+}
+
+.asideRight {
+    transition: transform 5s;
+}
+
+aside .asideRight {
+    animation: bottom-to-top 5s infinite;
+}
+
+@keyframes bottom-to-top {
+    0% {
+        transform: translateX(0) translateY(0);
+    }
+    25% {
+        transform: translateX(-100%) translateY(0);
+    }
+    50% {
+        transform: translateX(-100%) translateY(100%);
+    }
+    75% {
+        transform: translateX(0) translateY(100%);
+    }
+    100% {
+        transform: translateX(0) translateY(0);
+    }
+}

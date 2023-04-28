@@ -15,19 +15,3 @@
 .logo {
     width: 40vw;
 }
-
-.carouselImage {
-    padding: 0 4vw 0 4vw;
-    width: 15vw;
-}
-
-aside {
-    display: flex;
-    justify-content: space-between;
-}
-
-.asideLeft {
-}
-
-.asideRight {
-}
