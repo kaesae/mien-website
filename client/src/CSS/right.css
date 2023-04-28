@@ -1,4 +1,11 @@
 .rightSide {
     background-color: black;
-    width: 60%;
+    width: 40vw;
+    height: 100vh;
+}
+
+aside {
+    background-color: black;
+    width: 40vw;
+    height: 100vh;
 }

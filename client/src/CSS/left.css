@@ -1,9 +1,17 @@
 .leftSide {
-    
+    width: 60vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .topBottom {
     display: flex;
     justify-content: space-between;
-    margin: 0 50px 0 50px;
+    margin: 2vh 2vw 2vh 2vw;
+}
+
+.logo {
+    width: 80%;
 }
