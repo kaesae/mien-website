@@ -12,14 +12,16 @@
 aside {
     display: flex;
     justify-content: space-between;
+    height: 100vh;
+    overflow: hidden;
 }
 
 .asideLeft {
-    transition: transform 5s;
+    transition: transform 20s;
 }
 
 aside .asideLeft {
-    animation: top-to-bottom 5s infinite;
+    animation: top-to-bottom 20s infinite;
 }
 
 @keyframes top-to-bottom {
@@ -41,11 +43,16 @@ aside .asideLeft {
 }
 
 .asideRight {
-    transition: transform 5s;
+    transition: transform 20s;
+    display: flex;
+    flex-direction: column-reverse;
+    height: 100vh;
+    overflow: hidden;
 }
 
 aside .asideRight {
-    animation: bottom-to-top 5s infinite;
+    animation: bottom-to-top 20s infinite;
+    overflow: hidden;
 }
 
 @keyframes bottom-to-top {
@@ -53,13 +60,13 @@ aside .asideRight {
         transform: translateX(0) translateY(0);
     }
     25% {
-        transform: translateX(-100%) translateY(0);
+        transform: translateX(0) translateY(-100%);
     }
     50% {
-        transform: translateX(-100%) translateY(100%);
+        transform: translateX(-100%) translateY(-100%);
     }
     75% {
-        transform: translateX(0) translateY(100%);
+        transform: translateX(-100%) translateY(0);
     }
     100% {
         transform: translateX(0) translateY(0);
