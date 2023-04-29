@@ -1,4 +1,5 @@
 import Aside from "./Aside"
+import '../CSS/right.css'
 
 const Right = () => {
     return (

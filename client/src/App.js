@@ -1,15 +1,15 @@
 import { Link, Route, Routes } from "react-router-dom";
 
 import './App.css';
+import LandingPage from "./Components/LandingPage";
 
-import Left from './Components/Left.js'
-import Right from "./Components/Right";
 
 function App() {
   return (
     <div className="App">
-      <Left />
-      <Right />
+      <Routes>
+        <Route path="/" element={<LandingPage />} />
+      </Routes>
     </div>
   );
 }
