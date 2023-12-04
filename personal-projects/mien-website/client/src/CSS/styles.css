@@ -1,0 +1,139 @@
+/* Landing Page */
+
+.landingPage {
+    display: flex;
+    text-align: center;
+    width: 100vw;
+    height: 100vh;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.leftSide {
+    width: 60vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.topBottom {
+    display: flex;
+    justify-content: space-between;
+    margin: 2vh 2vw 2vh 2vw;
+}
+
+.logo {
+    width: 40vw;
+}
+
+.carouselImage {
+    width: 15vw;
+}
+
+aside {
+    display: flex;
+    justify-content: space-evenly;
+    height: 100vh;
+    overflow: hidden;
+    padding: 0 8px 0 8px;
+    background-color: black;
+    max-width: 40vw;
+}
+
+.asideLeft {
+    transition: transform 20s;
+}
+
+aside .asideLeft {
+    animation: top-to-bottom 20s infinite;
+}
+
+.asideRight {
+    transition: transform 20s;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+aside .asideRight {
+    animation: bottom-to-top 20s infinite;
+}
+
+.rightSide {
+    width: 40vw;
+    height: 100vh;
+}
+
+@keyframes top-to-bottom {
+    0% {
+        transform: translateX(0) translateY(0);
+    }
+    25% {
+        transform: translateX(0) translateY(100%);
+    }
+    50% {
+        transform: translateX(100%) translateY(100%);
+    }
+    75% {
+        transform: translateX(100%) translateY(0);
+    }
+    100% {
+        transform: translateX(0) translateY(0);
+    }
+}
+
+@keyframes bottom-to-top {
+    0% {
+        transform: translateX(0) translateY(0);
+    }
+    25% {
+        transform: translateX(0) translateY(-100%);
+    }
+    50% {
+        transform: translateX(-100%) translateY(-100%);
+    }
+    75% {
+        transform: translateX(-100%) translateY(0);
+    }
+    100% {
+        transform: translateX(0) translateY(0);
+    }
+}
+
+
+/* General Body */
+
+.bodyContainer {
+    height: 100vh;
+
+}
+
+/* Dictionary */
+
+.dictionaryContainer {
+    text-align: center;
+}
+
+tr {
+    width: 90vw;
+    height: 5vh;
+}
+
+tr:nth-child(odd) {
+    background-color: #1782C6;
+}
+
+tr:nth-child(even) {
+}
+
+tr:first-child {
+    background-color: #000000;
+    color: white;
+    
+}
+
+#dictHeader {
+    height: 5vh;
+}
+
