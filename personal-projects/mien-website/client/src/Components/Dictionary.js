@@ -2,6 +2,7 @@ import {useState} from 'react';
 import Header from './Header';
 import Footer from './Footer';
 import {data} from '../Resources/data'
+import Word from './Word';
 
 const Dictionary = () => {
     const [search, setSearch] = useState("");
@@ -19,7 +20,7 @@ const Dictionary = () => {
     return (
         <div className='bodyContainer'>
             <Header />
-            <div className='dictionaryContainer'>
+            {/* <div className='dictionaryContainer'>
                 <label className='wordSearch'>Search Words </label>
                 <input type="text" onChange={(e) => setSearch(e.target.value)} />
                 <table id='wordsTable'>
@@ -45,7 +46,8 @@ const Dictionary = () => {
                     ))}
                     </tbody>
                 </table>
-            </div>
+            </div> */}
+            <Word />
             <Footer />
         </div>
     )
