@@ -3,7 +3,7 @@ import Header from './Header';
 import Footer from './Footer';
 import {data} from '../Resources/data'
 
-const Word = () => {
+const Words = () => {
     const [search, setSearch] = useState("");
 
 
@@ -52,4 +52,4 @@ const Word = () => {
     )
 }
 
-export default Word;
+export default Words;

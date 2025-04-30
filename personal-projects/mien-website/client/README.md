@@ -23,3 +23,6 @@ This project serves as a passion project tying in my current skills as a full st
 Colors inspired from the Mien hilltribe.
 - Indigo Blue - #3B3B98
 - Moss Green - #154F15
+
+
+# Documents

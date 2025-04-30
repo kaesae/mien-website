@@ -1,14 +1,16 @@
 ﻿export const data = [
     {
         "Mien_word": "buoz",
-        "English_meaning": "hand",
-        "Part of speech": "",
+        "English_meaning": "whole hand, palm",
+        "Part of speech": "noun",
+        "English_example": "Open your hand.",
+        "Mien_example": "Koi meih nyei buoz.",
         "": ""
     },
     {
         "Mien_word": "cie",
         "English_meaning": "car",
-        "Part of speech": "",
+        "Part of speech": "noun",
         "": ""
     },
     {

@@ -5,13 +5,11 @@ import ContactMe from './ContactMe';
 
 const Header = (show, setShow) => {
     return (
-        <header>
-            <div id="header">
+        <header id="header">
                 <Link className='links' to='dictionary'><p>Dictionary</p></Link>
                 <Link className='links' to='login'><p>Log In</p></Link>
                 <Link className='links' to='about'><p>About</p></Link>
-                <Link className='links' to='contact'><p>Contact Me</p></Link>
-            </div>
+                <Link className='links' to='contactme'><p>Contact Me</p></Link>
         </header>
     )
 }
