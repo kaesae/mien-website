@@ -1,6 +1,4 @@
 import {useState} from 'react';
-import Header from './Header';
-import Footer from './Footer';
 import {data} from '../Resources/data'
 
 const Words = () => {
@@ -20,14 +18,18 @@ const Words = () => {
         <div className='bodyContainer'>
             <div className='dictionaryContainer'>
                 <div className='searchContainer'>
-                    <input id='searchbox' value="Search" type="text" onChange={(e) => setSearch(e.target.value)} />
+                    <input 
+                    id='searchbox' 
+                    type="text" 
+                    onChange={(e) => setSearch(e.target.value)} 
+                    />
                 </div>
                     {data
                     .filter((word) => {
                         return search.toLowerCase() === ''
                         ? word
                         : word.Mien_word.toLowerCase().includes(search)
-                        && word.English_meaning.toLowerCase().includes(search)
+                        || word.English_meaning.toLowerCase().includes(search)
                     })
                     .map((word) => (
                         <div key={data.id} className='cardContainer'>

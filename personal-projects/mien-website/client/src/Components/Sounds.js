@@ -2,14 +2,14 @@ import {useState} from 'react';
 import {CVT} from '../Resources/CVT'
 
 const Sounds = () => {
-    const [search, setSearch] = useState("");
+    const [dictionary, setDictionary] = useState("");
+    const savedDictionary = dictionary.toLowerCase();
 
-
-    const getFilteredWords = (search, words) => {
-        if (!search) {
-            return words;
+    const getFilteredSounds = (dictionary, sounds) => {
+        if (!dictionary) {
+            return sounds;
         }
-        return words.filter(word => word.words.includes(search))
+        return sounds.filter(sound => sound.sounds.includes(dictionary))
     }
 
     // const filteredWords = getFilteredWords(search, words);
@@ -18,33 +18,35 @@ const Sounds = () => {
         <div className='soundsContainer'>
             <div className='dictionaryContainer'>
                 <div className='searchContainer'>
-                    <input id='searchbox' value="Search" type="text" onChange={(e) => setSearch(e.target.value)} />
+                    <input 
+                    id='soundsInput' 
+                    type="text" 
+                    onChange={(e) => setDictionary(e.target.value)} />
                 </div>
                     {CVT
-                    .filter((letter) => {
-                        return search.toLowerCase() === ''
-                        ? letter
-                        : letter.Letters.toLowerCase().includes(search)
-                        && letter.English_meaning.toLowerCase().includes(search)
+                    .filter((sound) => {
+                        return dictionary.toLowerCase() === ''
+                        ? sound
+                        : sound.Letters.toLowerCase().includes(dictionary)
+                        || sound.English_example.toLowerCase().includes(dictionary)
                     })
-                    .map((letter) => (
+                    .map((sound) => (
                         <div key={CVT.id} className='cardContainer'>
                             <div className='wordContainer'>
-                                <div className='word'>{letter.Letters}</div>
+                                <div className='word'>{sound.Letters}</div>
                             </div>
                             <div className='meaningContainer'>
                                 <div>
-                                    <p id='def'>{letter.IPA}</p>
-                                    <p id='ex'>{letter.Mien_example} [{letter.English_example}]</p>
+                                    <p id='ipa'>{sound.IPA}</p>
+                                    <p id='mex'>{sound.Mien_example} [{sound.English_example}]</p>
                                 </div>
                             </div>
                             <div className='details'>
-                                <div className='detailstop'>{letter.c_mien_example}</div>
-                                <div className='detailsbot'>{letter.c_english_meaning}</div>
+                                <div className='detailstop'>{sound.c_mien_example}</div>
+                                <div className='detailsbot'>{sound.c_english_meaning}</div>
                             </div>
                         </div>
                     ))}
-                    
             </div>
         </div>
     )
