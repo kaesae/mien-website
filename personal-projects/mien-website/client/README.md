@@ -17,6 +17,7 @@ This project serves as a passion project tying in my current skills as a full st
 - Move data from JSON to SQL database
 - Recreate Mien crosstitch patterns on PC using graph, X's and O's, or in Illustrator
 - On the left side of Dictionary have a word search, on the right side have a sound search OR, right side automatically populates all the sounds of a word that's clicked on, follows you (sticky/fixed) on page (down the line, click on any Mien word and it will populate sounds on right side)
+- Category of words (Anatomy, sports, cooking, computer, house)
 
 
 # Colors Palette

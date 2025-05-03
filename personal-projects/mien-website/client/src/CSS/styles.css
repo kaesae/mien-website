@@ -1,3 +1,13 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+#App {
+    font-family: 'Roboto', serif;
+    background-color: #D9D9D9;
+}
+
 /* Landing Page */
 
 .landingPage {
@@ -18,10 +28,8 @@
     justify-content: space-between;
 }
 
-.topBottom {
-    display: flex;
-    justify-content: space-between;
-    margin: 2vh 2vw 2vh 2vw;
+#header {
+    padding: 5px 0 15px 10px;
 }
 
 .logo {
@@ -106,30 +114,24 @@ aside .asideRight {
 
 .bodyContainer {
     height: 100vh;
-
+    display: flex;
+    display: flex;
+    justify-content: space-around;
+    
 }
 
 /* Dictionary */
 
-.dictionaryContainer {
+#searchBox {
+    width: ;
+
+}
+
+.searchContainer {
     text-align: center;
 }
 
-tr {
-    width: 90vw;
-    height: 5vh;
-}
-
-tr:nth-child(odd) {
-    background-color: #1782C6;
-}
-
-tr:nth-child(even) {
-}
-
-tr:first-child {
-    background-color: #000000;
-    color: white;
+#searchBox {
     
 }
 
@@ -137,3 +139,69 @@ tr:first-child {
     height: 5vh;
 }
 
+#wordCard {
+    display: flex;
+    width: 373px;
+    height: 234px;
+    outline: 2px solid #154F15;
+    border-radius: 20%;
+    padding: 40px 40px 40px 40px;
+    flex-wrap: wrap;
+}
+
+.wordContainer {
+    text-decoration: underline;
+    text-decoration-thickness: 4px;
+    text-underline-offset: 13px;
+    text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.3);
+
+}
+
+.word {
+    flex-direction: row;
+    font-size: 50px;
+}
+
+.details {
+    flex-direction: column;
+    font-size: 20px;
+    padding-left: 30px;
+    padding-top: 9px;
+    text-align: center;
+    text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.3);
+    width: fit-content;
+}
+
+.detailsbot{
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 8px;
+}
+
+.meaningContainer {
+    margin: 0 0 0 30px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
+}
+
+#def {
+    font-size-adjust: 20px;
+}
+
+#example {
+    margin: 10px 0 0 40px;
+    font-family: 'Helvetica', sans-serif;
+}
+
+/* Sounds Component */
+
+.soundCard {
+    display: flex;
+    outline: 2px solid #154F15;
+    border-radius: 20%;
+    padding: 40px 40px 40px 40px;
+    flex-wrap: wrap;
+}
+
+.soundsContainer { 
+
+}

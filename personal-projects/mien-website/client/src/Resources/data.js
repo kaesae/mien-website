@@ -1,1033 +1,2609 @@
-﻿export const data = [
-    {
-        "Mien_word": "buoz",
-        "English_meaning": "whole hand, palm",
-        "Part of speech": "noun",
-        "English_example": "Open your hand.",
-        "Mien_example": "Koi meih nyei buoz.",
-        "": ""
-    },
-    {
-        "Mien_word": "cie",
-        "English_meaning": "car",
-        "Part of speech": "noun",
-        "": ""
-    },
-    {
-        "Mien_word": "dang",
-        "English_meaning": "light",
-        "Part of speech": "",
-        "": ""
-    },
-    {
-        "Mien_word": "faang",
-        "English_meaning": "Suitcase, chest",
-        "Part of speech": "",
-        "": ""
-    },
-    {
-        "Mien_word": "gaengv",
-        "English_meaning": "frog",
-        "Part of speech": "",
-        "": ""
-    },
-    {
-        "Mien_word": "heh",
-        "English_meaning": "shoe",
-        "Part of speech": "",
-        "": ""
-    },
-    {
-        "Mien_word": "hiun",
-        "English_meaning": "ring",
-        "Part of speech": "",
-        "": ""
-    },
-    {
-        "Mien_word": "hlaax",
-        "English_meaning": "month",
-        "Part of speech": "",
-        "": ""
-    },
-    {
-        "Mien_word": "hmien",
-        "English_meaning": "face",
-        "Part of speech": "",
-        "": ""
-    },
-    {
-        "Mien_word": "hnaav",
-        "English_meaning": "crossbow",
-        "Part of speech": "",
-        "": ""
-    },
-    {
-        "Mien_word": "hngaqv",
-        "English_meaning": "chop",
-        "Part of speech": "",
-        "": ""
-    },
-    {
-        "Mien_word": "hnyouv",
-        "English_meaning": "heart",
-        "Part of speech": "",
-        "": ""
-    },
-    {
-        "Mien_word": "huingx",
-        "English_meaning": "Garden",
-        "Part of speech": "",
-        "": ""
-    },
-    {
-        "Mien_word": "jaux",
-        "English_meaning": "Egg",
-        "Part of speech": "",
-        "": ""
-    },
-    {
-        "Mien_word": "korqv",
-        "English_meaning": "gourd",
-        "Part of speech": "",
-        "": ""
-    },
-    {
-        "Mien_word": "lui",
-        "English_meaning": "Horse",
-        "Part of speech": "",
-        "": ""
-    },
-    {
-        "Mien_word": "maaz",
-        "English_meaning": "shirt",
-        "Part of speech": "",
-        "": ""
-    },
-    {
-        "Mien_word": "mbing",
-        "English_meaning": "monkey",
-        "Part of speech": "",
-        "": ""
-    },
-    {
-        "Mien_word": "naauz",
-        "English_meaning": "mouse",
-        "Part of speech": "",
-        "": ""
-    },
-    {
-        "Mien_word": "ndiangx",
-        "English_meaning": "tree",
-        "Part of speech": "",
-        "": ""
-    },
-    {
-        "Mien_word": "ngongh",
-        "English_meaning": "Cow",
-        "Part of speech": "",
-        "": ""
-    },
-    {
-        "Mien_word": "njiuz",
-        "English_meaning": "Scissors",
-        "Part of speech": "",
-        "": ""
-    },
-    {
-        "Mien_word": "nqaai",
-        "English_meaning": "dry",
-        "Part of speech": "",
-        "": ""
-    },
-    {
-        "Mien_word": "nyaah",
-        "English_meaning": "teeth",
-        "Part of speech": "",
-        "": ""
-    },
-    {
-        "Mien_word": "nzangv",
-        "English_meaning": "canoe",
-        "Part of speech": "",
-        "": ""
-    },
-    {
-        "Mien_word": "porng",
-        "English_meaning": "hoe",
-        "Part of speech": "",
-        "": ""
-    },
-    {
-        "Mien_word": "qaa",
-        "English_meaning": "shrimp",
-        "Part of speech": "",
-        "": ""
-    },
-    {
-        "Mien_word": "sou",
-        "English_meaning": "book",
-        "Part of speech": "",
-        "": ""
-    },
-    {
-        "Mien_word": "tei",
-        "English_meaning": "ladder",
-        "Part of speech": "",
-        "": ""
-    },
-    {
-        "Mien_word": "waac",
-        "English_meaning": "language",
-        "Part of speech": "",
-        "": ""
-    },
-    {
-        "Mien_word": "yungh",
-        "English_meaning": "Goat",
-        "Part of speech": "",
-        "": ""
-    },
-    {
-        "Mien_word": "zaandgz",
-        "English_meaning": "Elephant",
-        "Part of speech": "",
-        "": ""
-    },
-    {
-        "Mien_word": "yie",
-        "English_meaning": "I",
-        "Part of speech": "",
-        "": ""
-    },
-    {
-        "Mien_word": "Yienv",
-        "English_meaning": "Bowl",
-        "Part of speech": "",
-        "": ""
-    },
-    {
-        "Mien_word": "yietc",
-        "English_meaning": "One",
-        "Part of speech": "",
-        "": ""
-    },
-    {
-        "Mien_word": "oix",
-        "English_meaning": "To want",
-        "Part of speech": "",
-        "": ""
-    },
-    {
-        "Mien_word": "meih",
-        "English_meaning": "you",
-        "Part of speech": "",
-        "": ""
-    },
-    {
-        "Mien_word": "ndouv",
-        "English_meaning": "to gamble",
-        "Part of speech": "",
-        "": ""
-    },
-    {
-        "Mien_word": "nduov",
-        "English_meaning": "to trick into something",
-        "Part of speech": "",
-        "": ""
-    },
-    {
-        "Mien_word": "Gorngv",
-        "English_meaning": "To speak",
-        "Part of speech": "",
-        "": ""
-    },
-    {
-        "Mien_word": "Hnoi",
-        "English_meaning": "Day",
-        "Part of speech": "",
-        "": ""
-    },
-    {
-        "Mien_word": "hnoi-hnoi",
-        "English_meaning": "Day by day, everyday",
-        "Part of speech": "",
-        "": ""
-    },
-    {
-        "Mien_word": "fu’jueiv",
-        "English_meaning": "kids",
-        "Part of speech": "",
-        "": ""
-    },
-    {
-        "Mien_word": "bun",
-        "English_meaning": "for",
-        "Part of speech": "",
-        "": ""
-    },
-    {
-        "Mien_word": "hoqc",
-        "English_meaning": "to learn",
-        "Part of speech": "",
-        "": ""
-    },
-    {
-        "Mien_word": "nyei",
-        "English_meaning": "Mine, (possessive marker)",
-        "Part of speech": "",
-        "": ""
-    },
-    {
-        "Mien_word": "ih",
-        "English_meaning": "this",
-        "Part of speech": "",
-        "": ""
-    },
-    {
-        "Mien_word": "mbuo",
-        "English_meaning": "Plural (yie mbuo - we, ninh mbuo - they)",
-        "Part of speech": "",
-        "": ""
-    },
-    {
-        "Mien_word": "biaa",
-        "English_meaning": "five",
-        "Part of speech": "",
-        "": ""
-    },
-    {
-        "Mien_word": "joux",
-        "English_meaning": "Word",
-        "Part of speech": "",
-        "": ""
-    },
-    {
-        "Mien_word": "Lomh nzoih",
-        "English_meaning": "Together",
-        "Part of speech": "",
-        "": ""
-    },
-    {
-        "Mien_word": "daaih",
-        "English_meaning": "to come",
-        "Part of speech": "",
-        "": ""
-    },
-    {
-        "Mien_word": "caux",
-        "English_meaning": "To speak",
-        "Part of speech": "",
-        "": ""
-    },
-    {
-        "Mien_word": "nzaangc",
-        "English_meaning": "Writing",
-        "Part of speech": "",
-        "": ""
-    },
-    {
-        "Mien_word": "a’hneiv",
-        "English_meaning": "happy",
-        "Part of speech": "",
-        "": ""
-    },
-    {
-        "Mien_word": "Gengh",
-        "English_meaning": "very",
-        "Part of speech": "",
-        "": ""
-    },
-    {
-        "Mien_word": "haiz",
-        "English_meaning": "To be (feeling)",
-        "Part of speech": "",
-        "": ""
-    },
-    {
-        "Mien_word": "aengx",
-        "English_meaning": "again",
-        "Part of speech": "",
-        "": ""
-    },
-    {
-        "Mien_word": "doqc",
-        "English_meaning": "to read",
-        "Part of speech": "",
-        "": ""
-    },
-    {
-        "Mien_word": "siepv",
-        "English_meaning": "fast",
-        "Part of speech": "",
-        "": ""
-    },
-    {
-        "Mien_word": "oc",
-        "English_meaning": "Ok?, all right? (commanding acknowledgement)",
-        "Part of speech": "",
-        "": ""
-    },
-    {
-        "Mien_word": "dorng",
-        "English_meaning": "End",
-        "Part of speech": "Noun",
-        "": ""
-    },
-    {
-        "Mien_word": "Buangh",
-        "English_meaning": "To meet",
-        "Part of speech": "Verb",
-        "": ""
-    },
-    {
-        "Mien_word": "laengz zingh",
-        "English_meaning": "Thank you, thanks",
-        "Part of speech": "",
-        "": ""
-    },
-    {
-        "Mien_word": "muangx",
-        "English_meaning": "To listen",
-        "Part of speech": "Verb",
-        "": ""
-    },
-    {
-        "Mien_word": "ndaangc",
-        "English_meaning": "Beforehand, first",
-        "Part of speech": "",
-        "": ""
-    },
-    {
-        "Mien_word": "nzunc",
-        "English_meaning": "Once, (one) time",
-        "Part of speech": "",
-        "": ""
-    },
-    {
-        "Mien_word": "gan",
-        "English_meaning": "To follow",
-        "Part of speech": "Verb",
-        "": ""
-    },
-    {
-        "Mien_word": "ninh",
-        "English_meaning": "He/she",
-        "Part of speech": "Pronoun",
-        "": ""
-    },
-    {
-        "Mien_word": "nyanc",
-        "English_meaning": "To eat",
-        "Part of speech": "verb",
-        "": ""
-    },
-    {
-        "Mien_word": "njuov",
-        "English_meaning": "cake",
-        "Part of speech": "noun",
-        "": ""
-    },
-    {
-        "Mien_word": "gaam",
-        "English_meaning": "sweet",
-        "Part of speech": "Adjective",
-        "": ""
-    },
-    {
-        "Mien_word": "Yie mbuo",
-        "English_meaning": "we",
-        "Part of speech": "pronoun",
-        "": ""
-    },
-    {
-        "Mien_word": "caux",
-        "English_meaning": "and",
-        "Part of speech": "",
-        "": ""
-    },
-    {
-        "Mien_word": "fiev",
-        "English_meaning": "To write",
-        "Part of speech": "",
-        "": ""
-    },
-    {
-        "Mien_word": "donc",
-        "English_meaning": "Slow",
-        "Part of speech": "",
-        "": ""
-    },
-    {
-        "Mien_word": "Yaac",
-        "English_meaning": "Will (future marker)",
-        "Part of speech": "",
-        "": ""
-    },
-    {
-        "Mien_word": "borqv",
-        "English_meaning": "To hit",
-        "Part of speech": "",
-        "": ""
-    },
-    {
-        "Mien_word": "mingh",
-        "English_meaning": "to go",
-        "Part of speech": "",
-        "": ""
-    },
-    {
-        "Mien_word": "hnamv",
-        "English_meaning": "to love",
-        "Part of speech": "",
-        "": ""
-    },
-    {
-        "Mien_word": "lorz",
-        "English_meaning": "to find",
-        "Part of speech": "",
-        "": ""
-    },
-    {
-        "Mien_word": "maaiz",
-        "English_meaning": "to buy",
-        "Part of speech": "",
-        "": ""
-    },
-    {
-        "Mien_word": "siang",
-        "English_meaning": "New",
-        "Part of speech": "",
-        "": ""
-    },
-    {
-        "Mien_word": "gaengh",
-        "English_meaning": "door",
-        "Part of speech": "",
-        "": ""
-    },
-    {
-        "Mien_word": "dungx",
-        "English_meaning": "don’t",
-        "Part of speech": "",
-        "": ""
-    },
-    {
-        "Mien_word": "dungz",
-        "English_meaning": "Pig",
-        "Part of speech": "",
-        "": ""
-    },
-    {
-        "Mien_word": "bungx",
-        "English_meaning": "to let go",
-        "Part of speech": "",
-        "": ""
-    },
-    {
-        "Mien_word": "bungz",
-        "English_meaning": "Saefong",
-        "Part of speech": "",
-        "": ""
-    },
-    {
-        "Mien_word": "Nzaangc qiex",
-        "English_meaning": "Written tone, tone",
-        "Part of speech": "",
-        "": ""
-    },
-    {
-        "Mien_word": "qiex",
-        "English_meaning": "Voice",
-        "Part of speech": "",
-        "": ""
-    },
-    {
-        "Mien_word": "Gauv",
-        "English_meaning": "Kao, first son",
-        "Part of speech": "",
-        "": ""
-    },
-    {
-        "Mien_word": "gaux",
-        "English_meaning": "Enough, sufficient",
-        "Part of speech": "",
-        "": ""
-    },
-    {
-        "Mien_word": "gauh",
-        "English_meaning": "More, -er",
-        "Part of speech": "",
-        "": ""
-    },
-    {
-        "Mien_word": "mbaiv",
-        "English_meaning": "Bike?",
-        "Part of speech": "",
-        "": ""
-    },
-    {
-        "Mien_word": "mbaix",
-        "English_meaning": "to slap",
-        "Part of speech": "",
-        "": ""
-    },
-    {
-        "Mien_word": "mbaih",
-        "English_meaning": "to balance",
-        "Part of speech": "",
-        "": ""
-    },
-    {
-        "Mien_word": "mbaiz",
-        "English_meaning": "",
-        "Part of speech": "",
-        "": ""
-    },
-    {
-        "Mien_word": "mbaic",
-        "English_meaning": "to sit",
-        "Part of speech": "",
-        "": ""
-    },
-    {
-        "Mien_word": "seix",
-        "English_meaning": "to try (and see), hard, life",
-        "Part of speech": "",
-        "": ""
-    },
-    {
-        "Mien_word": "aaux",
-        "English_meaning": "Nzangc-aaux: ending, word nucleus",
-        "Part of speech": "",
-        "": ""
-    },
-    {
-        "Mien_word": "in",
-        "English_meaning": "Ciggarette",
-        "Part of speech": "",
-        "": ""
-    },
-    {
-        "Mien_word": "im",
-        "English_meaning": "bitter",
-        "Part of speech": "",
-        "": ""
-    },
-    {
-        "Mien_word": "ba’daatc",
-        "English_meaning": "Bitter melon",
-        "Part of speech": "",
-        "": ""
-    },
-    {
-        "Mien_word": "don",
-        "English_meaning": "chair",
-        "Part of speech": "",
-        "": ""
-    },
-    {
-        "Mien_word": "om",
-        "English_meaning": "Bruised",
-        "Part of speech": "",
-        "": ""
-    },
-    {
-        "Mien_word": "beu",
-        "English_meaning": "to wrap",
-        "Part of speech": "",
-        "": ""
-    },
-    {
-        "Mien_word": "ban",
-        "English_meaning": "to spoon",
-        "Part of speech": "",
-        "": ""
-    },
-    {
-        "Mien_word": "baan",
-        "English_meaning": "",
-        "Part of speech": "",
-        "": ""
-    },
-    {
-        "Mien_word": "baaux",
-        "English_meaning": "to sing",
-        "Part of speech": "",
-        "": ""
-    },
-    {
-        "Mien_word": "cien",
-        "English_meaning": "Kin, reative",
-        "Part of speech": "",
-        "": ""
-    },
-    {
-        "Mien_word": "cing",
-        "English_meaning": "to clear",
-        "Part of speech": "",
-        "": ""
-    },
-    {
-        "Mien_word": "Cingh",
-        "English_meaning": "\"Cingh-jaang: calf"
-    },
-    {
-        "Mien_word": "Cingh-mborqc: knee\"",
-        "English_meaning": "",
-        "Part of speech": ""
-    },
-    {
-        "Mien_word": "Cingv",
-        "English_meaning": "to hire",
-        "Part of speech": "",
-        "": ""
-    },
-    {
-        "Mien_word": "dorn",
-        "English_meaning": "Boy, son",
-        "Part of speech": "",
-        "": ""
-    },
-    {
-        "Mien_word": "dien",
-        "English_meaning": "A little, not very much",
-        "Part of speech": "",
-        "": ""
-    },
-    {
-        "Mien_word": "die",
-        "English_meaning": "Father",
-        "Part of speech": "",
-        "": ""
-    },
-    {
-        "Mien_word": "mienv",
-        "English_meaning": "Spirit, god",
-        "Part of speech": "",
-        "": ""
-    },
-    {
-        "Mien_word": "mienx",
-        "English_meaning": "? (Unstable, holey?) The ground was MIENX, which made it more likely that you’d fall",
-        "Part of speech": "",
-        "": ""
-    },
-    {
-        "Mien_word": "mienh",
-        "English_meaning": "People, Mien",
-        "Part of speech": "",
-        "": ""
-    },
-    {
-        "Mien_word": "toux",
-        "English_meaning": "Rabbit",
-        "Part of speech": "",
-        "": ""
-    },
-    {
-        "Mien_word": "fun",
-        "English_meaning": "grandchildren",
-        "Part of speech": "",
-        "": ""
-    },
-    {
-        "Mien_word": "funx",
-        "English_meaning": "garlic",
-        "Part of speech": "",
-        "": ""
-    },
-    {
-        "Mien_word": "fioux",
-        "English_meaning": "to clean up, to tidy",
-        "Part of speech": "",
-        "": ""
-    },
-    {
-        "Mien_word": "gong",
-        "English_meaning": "Work",
-        "Part of speech": "Noun",
-        "": ""
-    },
-    {
-        "Mien_word": "ong",
-        "English_meaning": "grandpa",
-        "Part of speech": "",
-        "": ""
-    },
-    {
-        "Mien_word": "haih",
-        "English_meaning": "Can, to be able to",
-        "Part of speech": "Verb",
-        "": ""
-    },
-    {
-        "Mien_word": "haix",
-        "English_meaning": "to hear",
-        "Part of speech": "Verb",
-        "": ""
-    },
-    {
-        "Mien_word": "hiaang",
-        "English_meaning": "Part of a mien name",
-        "Part of speech": "",
-        "": ""
-    },
-    {
-        "Mien_word": "Hiaangx",
-        "English_meaning": "To grow bigger (big fire)",
-        "Part of speech": "",
-        "": ""
-    },
-    {
-        "Mien_word": "Hlan",
-        "English_meaning": "liver",
-        "Part of speech": "",
-        "": ""
-    },
-    {
-        "Mien_word": "hlang",
-        "English_meaning": "Tall, high",
-        "Part of speech": "",
-        "": ""
-    },
-    {
-        "Mien_word": "hlaang",
-        "English_meaning": "Rope, string",
-        "Part of speech": "",
-        "": ""
-    },
-    {
-        "Mien_word": "hmuangx",
-        "English_meaning": "Dark, night, not physically clear or opaque",
-        "Part of speech": "",
-        "": ""
-    },
-    {
-        "Mien_word": "Hnangv",
-        "English_meaning": "Only",
-        "Part of speech": "",
-        "": ""
-    },
-    {
-        "Mien_word": "hnaangx",
-        "English_meaning": "Cooked rice",
-        "Part of speech": "",
-        "": ""
-    },
-    {
-        "Mien_word": "Fih hnangv",
-        "English_meaning": "Similar, same",
-        "Part of speech": "",
-        "": ""
-    },
-    {
-        "Mien_word": "Hnangv haaix",
-        "English_meaning": "How",
-        "Part of speech": "",
-        "": ""
-    },
-    {
-        "Mien_word": "maiv",
-        "English_meaning": "Negative marker",
-        "Part of speech": "",
-        "": ""
-    },
-    {
-        "Mien_word": "hnganx",
-        "English_meaning": "",
-        "Part of speech": "",
-        "": ""
-    },
-    {
-        "Mien_word": "Hniev",
-        "English_meaning": "Heavy",
-        "Part of speech": "",
-        "": ""
-    },
-    {
-        "Mien_word": "hnyamx",
-        "English_meaning": "",
-        "Part of speech": "",
-        "": ""
-    },
-    {
-        "Mien_word": "hngongx",
-        "English_meaning": "Stupid, dumb",
-        "Part of speech": "",
-        "": ""
-    },
-    {
-        "Mien_word": "huing",
-        "English_meaning": "to turn around, to circle around",
-        "Part of speech": "",
-        "": ""
-    },
-    {
-        "Mien_word": "jauv",
-        "English_meaning": "Path, street",
-        "Part of speech": "",
-        "": ""
-    },
-    {
-        "Mien_word": "jiouh",
-        "English_meaning": "bridge",
-        "Part of speech": "",
-        "": ""
-    },
-    {
-        "Mien_word": "jiouc",
-        "English_meaning": "",
-        "Part of speech": "",
-        "": ""
-    },
-    {
-        "Mien_word": "cingh-jaa",
-        "English_meaning": "Wedding",
-        "Part of speech": "",
-        "": ""
-    },
-    {
-        "Mien_word": "kung",
-        "English_meaning": "to spill",
-        "Part of speech": "",
-        "": ""
-    },
-    {
-        "Mien_word": "kungx",
-        "English_meaning": "Have time",
-        "Part of speech": "",
-        "": ""
-    },
-    {
-        "Mien_word": "kungh",
-        "English_meaning": "Keep doing, continue, continually",
-        "Part of speech": "",
-        "": ""
-    },
-    {
-        "Mien_word": "lai",
-        "English_meaning": "vegetables",
-        "Part of speech": "",
-        "": ""
-    },
-    {
-        "Mien_word": "Laai",
-        "English_meaning": "Mien name Lai",
-        "Part of speech": "",
-        "": ""
-    },
-    {
-        "Mien_word": "ga’haav",
-        "English_meaning": "Behind, back",
-        "Part of speech": "",
-        "": ""
-    },
-    {
-        "Mien_word": "mbungv",
-        "English_meaning": "Bone",
-        "Part of speech": "",
-        "": ""
-    },
-    {
-        "Mien_word": "Mbungh",
-        "English_meaning": "",
-        "Part of speech": "",
-        "": ""
-    },
-    {
-        "Mien_word": "Mbung",
-        "English_meaning": "dusty, polluted?",
-        "Part of speech": "",
-        "": ""
-    },
-    {
-        "Mien_word": "niaa",
-        "English_meaning": "Like that?",
-        "Part of speech": "",
-        "": ""
-    },
-    {
-        "Mien_word": "biaav",
-        "English_meaning": "Stick",
-        "Part of speech": "",
-        "": ""
-    },
-    {
-        "Mien_word": "a’lov",
-        "English_meaning": "(Exclamation to something bad or pitiful)",
-        "Part of speech": "",
-        "": ""
-    },
-    {
-        "Mien_word": "a’loc",
-        "English_meaning": "Used to",
-        "Part of speech": "",
-        "": ""
-    },
-    {
-        "Mien_word": "njiangx",
-        "English_meaning": "Bright",
-        "Part of speech": "",
-        "": ""
-    },
-    {
-        "Mien_word": "njiux",
-        "English_meaning": "to look in a direction (?)",
-        "Part of speech": "",
-        "": ""
-    },
-    {
-        "Mien_word": "njiuc",
-        "English_meaning": "",
-        "Part of speech": "",
-        "": ""
-    },
-    {
-        "Mien_word": "nyau",
-        "English_meaning": "To grab",
-        "Part of speech": "",
-        "": ""
-    },
-    {
-        "Mien_word": "nyauv",
-        "English_meaning": "Troublesome",
-        "Part of speech": "",
-        "": ""
-    },
-    {
-        "Mien_word": "nyaux",
-        "English_meaning": "to wrinkle, to wither",
-        "Part of speech": "",
-        "": ""
-    },
-    {
-        "Mien_word": "nyaah",
-        "English_meaning": "",
-        "Part of speech": "",
-        "": ""
-    },
-    {
-        "Mien_word": "Nzangc Maac",
-        "English_meaning": "Coda, starting consonants (32 in Mien)",
-        "Part of speech": "",
-        "": ""
-    },
-    {
-        "Mien_word": "",
-        "English_meaning": "",
-        "Part of speech": "",
-        "": ""
-    },
-    {
-        "Mien_word": "",
-        "English_meaning": "",
-        "Part of speech": "",
-        "": ""
-    },
-    {
-        "Mien_word": "",
-        "English_meaning": "",
-        "Part of speech": "",
-        "": ""
-    }
+export const data = [
+  {
+    "mien": "buoz",
+    "eng": "hand",
+    "pos": "noun",
+    "ipa": "buoz",
+    "mex1": "Koi meih nyei buoz.",
+    "mtr1": "Open your hand.",
+    "mex2": "",
+    "mtr2": "",
+    "extranotes": ""
+  },
+  {
+    "mien": "cie",
+    "eng": "car",
+    "pos": "noun",
+    "ipa": "ciə˧",
+    "mex1": "Meih haih cap cie nie?",
+    "mtr1": "Do you know how to drive a car?",
+    "mex2": "",
+    "mtr2": "",
+    "extranotes": ""
+  },
+  {
+    "mien": "dang",
+    "eng": "light",
+    "pos": "noun",
+    "ipa": "tɐŋ˧",
+    "mex1": "",
+    "mtr1": "",
+    "mex2": "",
+    "mtr2": "",
+    "extranotes": ""
+  },
+  {
+    "mien": "faang",
+    "eng": "Suitcase, chest",
+    "pos": "noun",
+    "ipa": "faŋ˧",
+    "mex1": "",
+    "mtr1": "",
+    "mex2": "",
+    "mtr2": "",
+    "extranotes": ""
+  },
+  {
+    "mien": "gaengv",
+    "eng": "frog",
+    "pos": "noun",
+    "ipa": "k’æŋ˦˥",
+    "mex1": "",
+    "mtr1": "",
+    "mex2": "",
+    "mtr2": "",
+    "extranotes": ""
+  },
+  {
+    "mien": "heh",
+    "eng": "shoe",
+    "pos": "noun",
+    "ipa": "he˧˩",
+    "mex1": "",
+    "mtr1": "",
+    "mex2": "",
+    "mtr2": "",
+    "extranotes": ""
+  },
+  {
+    "mien": "hiun",
+    "eng": "ring",
+    "pos": "noun",
+    "ipa": "hiun˧",
+    "mex1": "",
+    "mtr1": "",
+    "mex2": "",
+    "mtr2": "",
+    "extranotes": ""
+  },
+  {
+    "mien": "hlaax",
+    "eng": "month",
+    "pos": "noun",
+    "ipa": "l̥a˨˧",
+    "mex1": "",
+    "mtr1": "",
+    "mex2": "",
+    "mtr2": "",
+    "extranotes": ""
+  },
+  {
+    "mien": "hmien",
+    "eng": "face",
+    "pos": "noun",
+    "ipa": "m̥iən˧",
+    "mex1": "",
+    "mtr1": "",
+    "mex2": "",
+    "mtr2": "",
+    "extranotes": ""
+  },
+  {
+    "mien": "hnaav",
+    "eng": "crossbow",
+    "pos": "noun",
+    "ipa": "n̥a˦˥",
+    "mex1": "",
+    "mtr1": "",
+    "mex2": "",
+    "mtr2": "",
+    "extranotes": ""
+  },
+  {
+    "mien": "hngaqv",
+    "eng": "chop",
+    "pos": "Apply for Job",
+    "ipa": "ŋ̊ɐʔ˦˥",
+    "mex1": "",
+    "mtr1": "",
+    "mex2": "",
+    "mtr2": "",
+    "extranotes": ""
+  },
+  {
+    "mien": "hnyouv",
+    "eng": "heart",
+    "pos": "noun",
+    "ipa": "ɲ̥əu˦˥",
+    "mex1": "",
+    "mtr1": "",
+    "mex2": "",
+    "mtr2": "",
+    "extranotes": ""
+  },
+  {
+    "mien": "huingx",
+    "eng": "Garden",
+    "pos": "noun",
+    "ipa": "huiŋ˨˧",
+    "mex1": "",
+    "mtr1": "",
+    "mex2": "",
+    "mtr2": "",
+    "extranotes": ""
+  },
+  {
+    "mien": "jaux",
+    "eng": "Egg",
+    "pos": "noun",
+    "ipa": "t͡ɕaʊ˨˧",
+    "mex1": "",
+    "mtr1": "",
+    "mex2": "",
+    "mtr2": "",
+    "extranotes": ""
+  },
+  {
+    "mien": "korqv",
+    "eng": "gourd",
+    "pos": "noun",
+    "ipa": "kʰɒʔ˦˥",
+    "mex1": "",
+    "mtr1": "",
+    "mex2": "",
+    "mtr2": "",
+    "extranotes": ""
+  },
+  {
+    "mien": "lui",
+    "eng": "Horse",
+    "pos": "noun",
+    "ipa": "lui˧",
+    "mex1": "",
+    "mtr1": "",
+    "mex2": "",
+    "mtr2": "",
+    "extranotes": ""
+  },
+  {
+    "mien": "maaz",
+    "eng": "shirt",
+    "pos": "noun",
+    "ipa": "ma˨˧",
+    "mex1": "",
+    "mtr1": "",
+    "mex2": "",
+    "mtr2": "",
+    "extranotes": ""
+  },
+  {
+    "mien": "mbing",
+    "eng": "monkey",
+    "pos": "noun",
+    "ipa": "biŋ˧",
+    "mex1": "",
+    "mtr1": "",
+    "mex2": "",
+    "mtr2": "",
+    "extranotes": ""
+  },
+  {
+    "mien": "naauz",
+    "eng": "mouse",
+    "pos": "noun",
+    "ipa": "naːʊ˨˧",
+    "mex1": "",
+    "mtr1": "",
+    "mex2": "",
+    "mtr2": "",
+    "extranotes": ""
+  },
+  {
+    "mien": "ndiangx",
+    "eng": "tree",
+    "pos": "noun",
+    "ipa": "diɐŋ˨˧",
+    "mex1": "",
+    "mtr1": "",
+    "mex2": "",
+    "mtr2": "",
+    "extranotes": ""
+  },
+  {
+    "mien": "ngongh",
+    "eng": "Cow",
+    "pos": "noun",
+    "ipa": "ŋoŋ˧˩",
+    "mex1": "",
+    "mtr1": "",
+    "mex2": "",
+    "mtr2": "",
+    "extranotes": ""
+  },
+  {
+    "mien": "njiuz",
+    "eng": "Scissors",
+    "pos": "noun",
+    "ipa": "d͡ʑiu˨˧",
+    "mex1": "",
+    "mtr1": "",
+    "mex2": "",
+    "mtr2": "",
+    "extranotes": ""
+  },
+  {
+    "mien": "nqaai",
+    "eng": "dry",
+    "pos": "adjective",
+    "ipa": "gaːɪ˧",
+    "mex1": "",
+    "mtr1": "",
+    "mex2": "",
+    "mtr2": "",
+    "extranotes": ""
+  },
+  {
+    "mien": "nyaah",
+    "eng": "teeth",
+    "pos": "noun",
+    "ipa": "ɲa˧˩",
+    "mex1": "",
+    "mtr1": "",
+    "mex2": "",
+    "mtr2": "",
+    "extranotes": ""
+  },
+  {
+    "mien": "nzangv",
+    "eng": "canoe",
+    "pos": "noun",
+    "ipa": "d͡zɐŋ˦˥",
+    "mex1": "",
+    "mtr1": "",
+    "mex2": "",
+    "mtr2": "",
+    "extranotes": ""
+  },
+  {
+    "mien": "porng",
+    "eng": "hoe",
+    "pos": "noun",
+    "ipa": "b’ɒŋ˧",
+    "mex1": "",
+    "mtr1": "",
+    "mex2": "",
+    "mtr2": "",
+    "extranotes": ""
+  },
+  {
+    "mien": "qaa",
+    "eng": "shrimp",
+    "pos": "noun",
+    "ipa": "t͡ɕʰa˧",
+    "mex1": "",
+    "mtr1": "",
+    "mex2": "",
+    "mtr2": "",
+    "extranotes": ""
+  },
+  {
+    "mien": "sou",
+    "eng": "book",
+    "pos": "noun",
+    "ipa": "səu˧",
+    "mex1": "",
+    "mtr1": "",
+    "mex2": "",
+    "mtr2": "",
+    "extranotes": ""
+  },
+  {
+    "mien": "tei",
+    "eng": "ladder",
+    "pos": "noun",
+    "ipa": "tʰɛɪ˧",
+    "mex1": "",
+    "mtr1": "",
+    "mex2": "",
+    "mtr2": "",
+    "extranotes": ""
+  },
+  {
+    "mien": "waac",
+    "eng": "language",
+    "pos": "noun",
+    "ipa": "wa˨˩",
+    "mex1": "",
+    "mtr1": "",
+    "mex2": "",
+    "mtr2": "",
+    "extranotes": ""
+  },
+  {
+    "mien": "yungh",
+    "eng": "Goat",
+    "pos": "noun",
+    "ipa": "juŋ˧˩",
+    "mex1": "",
+    "mtr1": "",
+    "mex2": "",
+    "mtr2": "",
+    "extranotes": ""
+  },
+  {
+    "mien": "zaandgz",
+    "eng": "Elephant",
+    "pos": "noun",
+    "ipa": "zadk’˨˧",
+    "mex1": "",
+    "mtr1": "",
+    "mex2": "",
+    "mtr2": "",
+    "extranotes": ""
+  },
+  {
+    "mien": "yie",
+    "eng": "I",
+    "pos": "pronoun",
+    "ipa": "jiə˧",
+    "mex1": "",
+    "mtr1": "",
+    "mex2": "",
+    "mtr2": "",
+    "extranotes": ""
+  },
+  {
+    "mien": "yienv",
+    "eng": "Bowl",
+    "pos": "noun",
+    "ipa": "jiən˦˥",
+    "mex1": "",
+    "mtr1": "",
+    "mex2": "",
+    "mtr2": "",
+    "extranotes": ""
+  },
+  {
+    "mien": "yietc",
+    "eng": "One",
+    "pos": "number",
+    "ipa": "jietʰ˨˩",
+    "mex1": "",
+    "mtr1": "",
+    "mex2": "",
+    "mtr2": "",
+    "extranotes": ""
+  },
+  {
+    "mien": "oix",
+    "eng": "To want",
+    "pos": "verb",
+    "ipa": "oɪ˨˧",
+    "mex1": "",
+    "mtr1": "",
+    "mex2": "",
+    "mtr2": "",
+    "extranotes": ""
+  },
+  {
+    "mien": "meih",
+    "eng": "you",
+    "pos": "pronoun",
+    "ipa": "mɛɪ˧˩",
+    "mex1": "",
+    "mtr1": "",
+    "mex2": "",
+    "mtr2": "",
+    "extranotes": ""
+  },
+  {
+    "mien": "ndouv",
+    "eng": "to gamble",
+    "pos": "verb",
+    "ipa": "dəu˦˥",
+    "mex1": "",
+    "mtr1": "",
+    "mex2": "",
+    "mtr2": "",
+    "extranotes": ""
+  },
+  {
+    "mien": "nduov",
+    "eng": "to trick into something",
+    "pos": "verb",
+    "ipa": "duə˦˥",
+    "mex1": "",
+    "mtr1": "",
+    "mex2": "",
+    "mtr2": "",
+    "extranotes": ""
+  },
+  {
+    "mien": "gorngv",
+    "eng": "To speak",
+    "pos": "verb",
+    "ipa": "k’ɒŋ˦˥",
+    "mex1": "",
+    "mtr1": "",
+    "mex2": "",
+    "mtr2": "",
+    "extranotes": ""
+  },
+  {
+    "mien": "hnoi",
+    "eng": "Day",
+    "pos": "noun",
+    "ipa": "n̥oɪ˧",
+    "mex1": "",
+    "mtr1": "",
+    "mex2": "",
+    "mtr2": "",
+    "extranotes": ""
+  },
+  {
+    "mien": "hnoi-hnoi",
+    "eng": "Day by day, everyday",
+    "pos": "adverb",
+    "ipa": "n̥oɪ-n̥oɪ˧",
+    "mex1": "",
+    "mtr1": "",
+    "mex2": "",
+    "mtr2": "",
+    "extranotes": ""
+  },
+  {
+    "mien": "fu’jueiv",
+    "eng": "kids",
+    "pos": "noun",
+    "ipa": "fu’t͡ɕuɛɪ˦˥",
+    "mex1": "",
+    "mtr1": "",
+    "mex2": "",
+    "mtr2": "",
+    "extranotes": ""
+  },
+  {
+    "mien": "bun",
+    "eng": "for",
+    "pos": "",
+    "ipa": "b’un˧",
+    "mex1": "",
+    "mtr1": "",
+    "mex2": "",
+    "mtr2": "",
+    "extranotes": ""
+  },
+  {
+    "mien": "hoqc",
+    "eng": "to learn",
+    "pos": "verb",
+    "ipa": "hoʔ˨˩",
+    "mex1": "",
+    "mtr1": "",
+    "mex2": "",
+    "mtr2": "",
+    "extranotes": ""
+  },
+  {
+    "mien": "nyei",
+    "eng": "possessive particle",
+    "pos": "Particle",
+    "ipa": "ɲɛɪ˧",
+    "mex1": "Yie nyei",
+    "mtr1": "",
+    "mex2": "",
+    "mtr2": "",
+    "extranotes": ""
+  },
+  {
+    "mien": "nyei",
+    "eng": "Manner particle",
+    "pos": "Particle",
+    "ipa": "ɲɛɪ˧",
+    "mex1": "",
+    "mtr1": "",
+    "mex2": "",
+    "mtr2": "",
+    "extranotes": ""
+  },
+  {
+    "mien": "ih",
+    "eng": "this, now",
+    "pos": "Adjective",
+    "ipa": "i˧˩",
+    "mex1": "Ih jaax mienh maiv haih gorngv mbuo nyei waac.",
+    "mtr1": "Today’s Mien people can’t speak our language.",
+    "mex2": "",
+    "mtr2": "",
+    "extranotes": ""
+  },
+  {
+    "mien": "mbuo",
+    "eng": "Plural (yie mbuo - we, ninh mbuo - they)",
+    "pos": "pronoun",
+    "ipa": "buə˧",
+    "mex1": "",
+    "mtr1": "",
+    "mex2": "",
+    "mtr2": "",
+    "extranotes": ""
+  },
+  {
+    "mien": "biaa",
+    "eng": "five",
+    "pos": "number",
+    "ipa": "b’ia˧",
+    "mex1": "",
+    "mtr1": "",
+    "mex2": "",
+    "mtr2": "",
+    "extranotes": ""
+  },
+  {
+    "mien": "joux",
+    "eng": "Word",
+    "pos": "noun",
+    "ipa": "t͡ɕəu˨˧",
+    "mex1": "",
+    "mtr1": "",
+    "mex2": "",
+    "mtr2": "",
+    "extranotes": ""
+  },
+  {
+    "mien": "lomh nzoih",
+    "eng": "Together",
+    "pos": "adjetive",
+    "ipa": "lom˧˩ d͡zoɪ˧˩",
+    "mex1": "",
+    "mtr1": "",
+    "mex2": "",
+    "mtr2": "",
+    "extranotes": ""
+  },
+  {
+    "mien": "daaih",
+    "eng": "to come",
+    "pos": "verb",
+    "ipa": "taːɪ˧˩",
+    "mex1": "",
+    "mtr1": "",
+    "mex2": "",
+    "mtr2": "",
+    "extranotes": ""
+  },
+  {
+    "mien": "caux",
+    "eng": "To speak",
+    "pos": "verb",
+    "ipa": "caʊ˨˧",
+    "mex1": "",
+    "mtr1": "",
+    "mex2": "",
+    "mtr2": "",
+    "extranotes": ""
+  },
+  {
+    "mien": "nzaangc",
+    "eng": "Writing",
+    "pos": "noun",
+    "ipa": "d͡zaŋ˨˩",
+    "mex1": "",
+    "mtr1": "",
+    "mex2": "",
+    "mtr2": "",
+    "extranotes": ""
+  },
+  {
+    "mien": "a’hneiv",
+    "eng": "happy",
+    "pos": "adjective",
+    "ipa": "ɐ’n̥ɛɪ˦˥",
+    "mex1": "",
+    "mtr1": "",
+    "mex2": "",
+    "mtr2": "",
+    "extranotes": ""
+  },
+  {
+    "mien": "gengh",
+    "eng": "very",
+    "pos": "adjective",
+    "ipa": "k’eŋ˧˩",
+    "mex1": "",
+    "mtr1": "",
+    "mex2": "",
+    "mtr2": "",
+    "extranotes": ""
+  },
+  {
+    "mien": "haiz",
+    "eng": "To be (feeling)",
+    "pos": "verb",
+    "ipa": "haɪ˨˧",
+    "mex1": "",
+    "mtr1": "",
+    "mex2": "",
+    "mtr2": "",
+    "extranotes": ""
+  },
+  {
+    "mien": "aengx",
+    "eng": "again",
+    "pos": "Adverb",
+    "ipa": "æŋ˨˧",
+    "mex1": "",
+    "mtr1": "",
+    "mex2": "",
+    "mtr2": "",
+    "extranotes": ""
+  },
+  {
+    "mien": "doqc",
+    "eng": "to read",
+    "pos": "verb",
+    "ipa": "toʔ˨˩",
+    "mex1": "",
+    "mtr1": "",
+    "mex2": "",
+    "mtr2": "",
+    "extranotes": ""
+  },
+  {
+    "mien": "siepv",
+    "eng": "fast",
+    "pos": "adjective",
+    "ipa": "siəb’˦˥",
+    "mex1": "",
+    "mtr1": "",
+    "mex2": "",
+    "mtr2": "",
+    "extranotes": ""
+  },
+  {
+    "mien": "oc",
+    "eng": "Ok?, all right? (commanding acknowledgement)",
+    "pos": "particle",
+    "ipa": "o˨˩",
+    "mex1": "",
+    "mtr1": "",
+    "mex2": "",
+    "mtr2": "",
+    "extranotes": ""
+  },
+  {
+    "mien": "dorng",
+    "eng": "End",
+    "pos": "Noun",
+    "ipa": "tɒŋ˧",
+    "mex1": "",
+    "mtr1": "",
+    "mex2": "",
+    "mtr2": "",
+    "extranotes": ""
+  },
+  {
+    "mien": "buangh",
+    "eng": "To meet",
+    "pos": "verb",
+    "ipa": "b’uɐŋ˧˩",
+    "mex1": "",
+    "mtr1": "",
+    "mex2": "",
+    "mtr2": "",
+    "extranotes": ""
+  },
+  {
+    "mien": "laengz zingh",
+    "eng": "Thank you, thanks",
+    "pos": "",
+    "ipa": "læŋ˨˧ ziŋ˧˩",
+    "mex1": "",
+    "mtr1": "",
+    "mex2": "",
+    "mtr2": "",
+    "extranotes": ""
+  },
+  {
+    "mien": "muangx",
+    "eng": "To listen",
+    "pos": "verb",
+    "ipa": "muɐŋ˨˧",
+    "mex1": "",
+    "mtr1": "",
+    "mex2": "",
+    "mtr2": "",
+    "extranotes": ""
+  },
+  {
+    "mien": "ndaangc",
+    "eng": "Beforehand, first",
+    "pos": "",
+    "ipa": "daŋ˨˩",
+    "mex1": "",
+    "mtr1": "",
+    "mex2": "",
+    "mtr2": "",
+    "extranotes": ""
+  },
+  {
+    "mien": "nzunc",
+    "eng": "Once, (one) time",
+    "pos": "",
+    "ipa": "d͡zun˨˩",
+    "mex1": "",
+    "mtr1": "",
+    "mex2": "",
+    "mtr2": "",
+    "extranotes": ""
+  },
+  {
+    "mien": "gan",
+    "eng": "To follow",
+    "pos": "verb",
+    "ipa": "k’ɐn˧",
+    "mex1": "",
+    "mtr1": "",
+    "mex2": "",
+    "mtr2": "",
+    "extranotes": ""
+  },
+  {
+    "mien": "ninh",
+    "eng": "He/she",
+    "pos": "Pronoun",
+    "ipa": "nin˧˩",
+    "mex1": "",
+    "mtr1": "",
+    "mex2": "",
+    "mtr2": "",
+    "extranotes": ""
+  },
+  {
+    "mien": "nyanc",
+    "eng": "To eat",
+    "pos": "verb",
+    "ipa": "ɲɐn˨˩",
+    "mex1": "",
+    "mtr1": "",
+    "mex2": "",
+    "mtr2": "",
+    "extranotes": ""
+  },
+  {
+    "mien": "njuov",
+    "eng": "cake",
+    "pos": "noun",
+    "ipa": "d͡ʑuə˦˥",
+    "mex1": "",
+    "mtr1": "",
+    "mex2": "",
+    "mtr2": "",
+    "extranotes": ""
+  },
+  {
+    "mien": "gaam",
+    "eng": "sweet",
+    "pos": "Adjective",
+    "ipa": "k’am˧",
+    "mex1": "",
+    "mtr1": "",
+    "mex2": "",
+    "mtr2": "",
+    "extranotes": ""
+  },
+  {
+    "mien": "yie mbuo",
+    "eng": "we",
+    "pos": "pronoun",
+    "ipa": "jiə˧ buə˧",
+    "mex1": "",
+    "mtr1": "",
+    "mex2": "",
+    "mtr2": "",
+    "extranotes": ""
+  },
+  {
+    "mien": "caux",
+    "eng": "and",
+    "pos": "",
+    "ipa": "tsʰaʊ˨˧",
+    "mex1": "",
+    "mtr1": "",
+    "mex2": "",
+    "mtr2": "",
+    "extranotes": ""
+  },
+  {
+    "mien": "fiev",
+    "eng": "To write",
+    "pos": "",
+    "ipa": "fiə˦˥",
+    "mex1": "",
+    "mtr1": "",
+    "mex2": "",
+    "mtr2": "",
+    "extranotes": ""
+  },
+  {
+    "mien": "donc",
+    "eng": "Slow",
+    "pos": "adjective",
+    "ipa": "ton˨˩",
+    "mex1": "",
+    "mtr1": "",
+    "mex2": "",
+    "mtr2": "",
+    "extranotes": ""
+  },
+  {
+    "mien": "Yaac",
+    "eng": "Will (future marker)",
+    "pos": "",
+    "ipa": "ja˨˩",
+    "mex1": "",
+    "mtr1": "",
+    "mex2": "",
+    "mtr2": "",
+    "extranotes": ""
+  },
+  {
+    "mien": "borqv",
+    "eng": "To hit",
+    "pos": "",
+    "ipa": "b’ɒʔ˦˥",
+    "mex1": "",
+    "mtr1": "",
+    "mex2": "",
+    "mtr2": "",
+    "extranotes": ""
+  },
+  {
+    "mien": "mingh",
+    "eng": "to go",
+    "pos": "",
+    "ipa": "miŋ˧˩",
+    "mex1": "",
+    "mtr1": "",
+    "mex2": "",
+    "mtr2": "",
+    "extranotes": ""
+  },
+  {
+    "mien": "hnamv",
+    "eng": "to love",
+    "pos": "",
+    "ipa": "n̥ɐm˦˥",
+    "mex1": "",
+    "mtr1": "",
+    "mex2": "",
+    "mtr2": "",
+    "extranotes": ""
+  },
+  {
+    "mien": "lorz",
+    "eng": "to find",
+    "pos": "",
+    "ipa": "lɒ˨˧",
+    "mex1": "",
+    "mtr1": "",
+    "mex2": "",
+    "mtr2": "",
+    "extranotes": ""
+  },
+  {
+    "mien": "maaiz",
+    "eng": "to buy",
+    "pos": "",
+    "ipa": "maːɪ˨˧",
+    "mex1": "",
+    "mtr1": "",
+    "mex2": "",
+    "mtr2": "",
+    "extranotes": ""
+  },
+  {
+    "mien": "siang",
+    "eng": "New",
+    "pos": "",
+    "ipa": "siɐŋ˧",
+    "mex1": "",
+    "mtr1": "",
+    "mex2": "",
+    "mtr2": "",
+    "extranotes": ""
+  },
+  {
+    "mien": "gaengh",
+    "eng": "door",
+    "pos": "",
+    "ipa": "k’æŋ˧˩",
+    "mex1": "",
+    "mtr1": "",
+    "mex2": "",
+    "mtr2": "",
+    "extranotes": ""
+  },
+  {
+    "mien": "dungx",
+    "eng": "don’t",
+    "pos": "",
+    "ipa": "tuŋ˨˧",
+    "mex1": "",
+    "mtr1": "",
+    "mex2": "",
+    "mtr2": "",
+    "extranotes": ""
+  },
+  {
+    "mien": "dungz",
+    "eng": "Pig",
+    "pos": "",
+    "ipa": "tuŋ˨˧",
+    "mex1": "",
+    "mtr1": "",
+    "mex2": "",
+    "mtr2": "",
+    "extranotes": ""
+  },
+  {
+    "mien": "bungx",
+    "eng": "to let go",
+    "pos": "",
+    "ipa": "b’uŋ˨˧",
+    "mex1": "",
+    "mtr1": "",
+    "mex2": "",
+    "mtr2": "",
+    "extranotes": ""
+  },
+  {
+    "mien": "bungz",
+    "eng": "Saefong",
+    "pos": "",
+    "ipa": "b’uŋ˨˧",
+    "mex1": "",
+    "mtr1": "",
+    "mex2": "",
+    "mtr2": "",
+    "extranotes": ""
+  },
+  {
+    "mien": "nzaangc qiex",
+    "eng": "Written tone, tone",
+    "pos": "",
+    "ipa": "d͡zaŋ˨˩ t͡ɕʰiə˨˧",
+    "mex1": "",
+    "mtr1": "",
+    "mex2": "",
+    "mtr2": "",
+    "extranotes": ""
+  },
+  {
+    "mien": "qiex",
+    "eng": "Voice",
+    "pos": "",
+    "ipa": "t͡ɕʰiə˨˧",
+    "mex1": "",
+    "mtr1": "",
+    "mex2": "",
+    "mtr2": "",
+    "extranotes": ""
+  },
+  {
+    "mien": "gauv",
+    "eng": "Kao, first son",
+    "pos": "",
+    "ipa": "k’aʊ˦˥",
+    "mex1": "",
+    "mtr1": "",
+    "mex2": "",
+    "mtr2": "",
+    "extranotes": ""
+  },
+  {
+    "mien": "gaux",
+    "eng": "Enough, sufficient",
+    "pos": "",
+    "ipa": "k’aʊ˨˧",
+    "mex1": "",
+    "mtr1": "",
+    "mex2": "",
+    "mtr2": "",
+    "extranotes": ""
+  },
+  {
+    "mien": "gauh",
+    "eng": "More, -er",
+    "pos": "",
+    "ipa": "k’aʊ˧˩",
+    "mex1": "",
+    "mtr1": "",
+    "mex2": "",
+    "mtr2": "",
+    "extranotes": ""
+  },
+  {
+    "mien": "mbaiv",
+    "eng": "Bike?",
+    "pos": "",
+    "ipa": "baɪ˦˥",
+    "mex1": "",
+    "mtr1": "",
+    "mex2": "",
+    "mtr2": "",
+    "extranotes": ""
+  },
+  {
+    "mien": "mbaix",
+    "eng": "to slap",
+    "pos": "",
+    "ipa": "baɪ˨˧",
+    "mex1": "",
+    "mtr1": "",
+    "mex2": "",
+    "mtr2": "",
+    "extranotes": ""
+  },
+  {
+    "mien": "mbaih",
+    "eng": "to balance",
+    "pos": "",
+    "ipa": "baɪ˧˩",
+    "mex1": "",
+    "mtr1": "",
+    "mex2": "",
+    "mtr2": "",
+    "extranotes": ""
+  },
+  {
+    "mien": "mbaiz",
+    "eng": "",
+    "pos": "",
+    "ipa": "baɪ˨˧",
+    "mex1": "",
+    "mtr1": "",
+    "mex2": "",
+    "mtr2": "",
+    "extranotes": ""
+  },
+  {
+    "mien": "mbaic",
+    "eng": "to sit",
+    "pos": "",
+    "ipa": "baɪ˨˩",
+    "mex1": "",
+    "mtr1": "",
+    "mex2": "",
+    "mtr2": "",
+    "extranotes": ""
+  },
+  {
+    "mien": "seix",
+    "eng": "to try (and see), hard, life",
+    "pos": "",
+    "ipa": "sɛɪ˨˧",
+    "mex1": "",
+    "mtr1": "",
+    "mex2": "",
+    "mtr2": "",
+    "extranotes": ""
+  },
+  {
+    "mien": "aaux",
+    "eng": "Nzangc-aaux: ending, word nucleus",
+    "pos": "",
+    "ipa": "aːʊ˨˧",
+    "mex1": "",
+    "mtr1": "",
+    "mex2": "",
+    "mtr2": "",
+    "extranotes": ""
+  },
+  {
+    "mien": "in",
+    "eng": "Ciggarette",
+    "pos": "",
+    "ipa": "in˧",
+    "mex1": "",
+    "mtr1": "",
+    "mex2": "",
+    "mtr2": "",
+    "extranotes": ""
+  },
+  {
+    "mien": "im",
+    "eng": "bitter",
+    "pos": "",
+    "ipa": "im˧",
+    "mex1": "",
+    "mtr1": "",
+    "mex2": "",
+    "mtr2": "",
+    "extranotes": ""
+  },
+  {
+    "mien": "ba’daatc",
+    "eng": "Bitter melon",
+    "pos": "",
+    "ipa": "b’ɐ’tatʰ˨˩",
+    "mex1": "",
+    "mtr1": "",
+    "mex2": "",
+    "mtr2": "",
+    "extranotes": ""
+  },
+  {
+    "mien": "don",
+    "eng": "chair",
+    "pos": "",
+    "ipa": "ton˧",
+    "mex1": "",
+    "mtr1": "",
+    "mex2": "",
+    "mtr2": "",
+    "extranotes": ""
+  },
+  {
+    "mien": "om",
+    "eng": "Bruised",
+    "pos": "",
+    "ipa": "om˧",
+    "mex1": "",
+    "mtr1": "",
+    "mex2": "",
+    "mtr2": "",
+    "extranotes": ""
+  },
+  {
+    "mien": "beu",
+    "eng": "to wrap",
+    "pos": "verb",
+    "ipa": "b’ɜo˧",
+    "mex1": "",
+    "mtr1": "",
+    "mex2": "",
+    "mtr2": "",
+    "extranotes": ""
+  },
+  {
+    "mien": "ban",
+    "eng": "to spoon",
+    "pos": "verb",
+    "ipa": "b’ɐn˧",
+    "mex1": "",
+    "mtr1": "",
+    "mex2": "",
+    "mtr2": "",
+    "extranotes": ""
+  },
+  {
+    "mien": "baan",
+    "eng": "",
+    "pos": "",
+    "ipa": "b’an˧",
+    "mex1": "",
+    "mtr1": "",
+    "mex2": "",
+    "mtr2": "",
+    "extranotes": ""
+  },
+  {
+    "mien": "baaux",
+    "eng": "to sing",
+    "pos": "verb",
+    "ipa": "b’aːʊ˨˧",
+    "mex1": "",
+    "mtr1": "",
+    "mex2": "",
+    "mtr2": "",
+    "extranotes": ""
+  },
+  {
+    "mien": "cien",
+    "eng": "Kin, reative",
+    "pos": "noun",
+    "ipa": "ciən˧",
+    "mex1": "",
+    "mtr1": "",
+    "mex2": "",
+    "mtr2": "",
+    "extranotes": ""
+  },
+  {
+    "mien": "cing",
+    "eng": "to clear",
+    "pos": "verb",
+    "ipa": "ciŋ˧",
+    "mex1": "",
+    "mtr1": "",
+    "mex2": "",
+    "mtr2": "",
+    "extranotes": ""
+  },
+  {
+    "mien": "cingh",
+    "eng": "Cingh-jaang: calf\nCingh-mborqc: knee",
+    "pos": "",
+    "ipa": "ciŋ˧˩",
+    "mex1": "",
+    "mtr1": "",
+    "mex2": "",
+    "mtr2": "",
+    "extranotes": ""
+  },
+  {
+    "mien": "cingv",
+    "eng": "to hire",
+    "pos": "verb",
+    "ipa": "ciŋ˦˥",
+    "mex1": "Yie cingv chan",
+    "mtr1": "",
+    "mex2": "",
+    "mtr2": "",
+    "extranotes": ""
+  },
+  {
+    "mien": "dorn",
+    "eng": "Boy, son",
+    "pos": "noun",
+    "ipa": "tɒn˧",
+    "mex1": "",
+    "mtr1": "",
+    "mex2": "",
+    "mtr2": "",
+    "extranotes": ""
+  },
+  {
+    "mien": "dien",
+    "eng": "A little, not very much",
+    "pos": "adjective",
+    "ipa": "tiən˧",
+    "mex1": "",
+    "mtr1": "",
+    "mex2": "",
+    "mtr2": "",
+    "extranotes": ""
+  },
+  {
+    "mien": "die",
+    "eng": "Father, dad, papa",
+    "pos": "noun",
+    "ipa": "tiə˧",
+    "mex1": "",
+    "mtr1": "",
+    "mex2": "",
+    "mtr2": "",
+    "extranotes": ""
+  },
+  {
+    "mien": "mienv",
+    "eng": "Spirit, god",
+    "pos": "noun",
+    "ipa": "miən˦˥",
+    "mex1": "",
+    "mtr1": "",
+    "mex2": "",
+    "mtr2": "",
+    "extranotes": ""
+  },
+  {
+    "mien": "mienx",
+    "eng": "precarious",
+    "pos": "adjective",
+    "ipa": "miən˨˧",
+    "mex1": "",
+    "mtr1": "",
+    "mex2": "",
+    "mtr2": "",
+    "extranotes": ""
+  },
+  {
+    "mien": "mienh",
+    "eng": "People, Mien",
+    "pos": "noun",
+    "ipa": "miən˧˩",
+    "mex1": "",
+    "mtr1": "",
+    "mex2": "",
+    "mtr2": "",
+    "extranotes": ""
+  },
+  {
+    "mien": "toux",
+    "eng": "Rabbit",
+    "pos": "noun",
+    "ipa": "tʰəu˨˧",
+    "mex1": "",
+    "mtr1": "",
+    "mex2": "",
+    "mtr2": "",
+    "extranotes": ""
+  },
+  {
+    "mien": "fun",
+    "eng": "grandchildren",
+    "pos": "noun",
+    "ipa": "fun˧",
+    "mex1": "",
+    "mtr1": "",
+    "mex2": "",
+    "mtr2": "",
+    "extranotes": ""
+  },
+  {
+    "mien": "funx",
+    "eng": "garlic",
+    "pos": "noun",
+    "ipa": "fun˨˧",
+    "mex1": "",
+    "mtr1": "",
+    "mex2": "",
+    "mtr2": "",
+    "extranotes": ""
+  },
+  {
+    "mien": "fioux",
+    "eng": "to clean up, to tidy",
+    "pos": "verb",
+    "ipa": "fiəu˨˧",
+    "mex1": "",
+    "mtr1": "",
+    "mex2": "",
+    "mtr2": "",
+    "extranotes": ""
+  },
+  {
+    "mien": "gong",
+    "eng": "Work",
+    "pos": "Noun",
+    "ipa": "k’oŋ˧",
+    "mex1": "",
+    "mtr1": "",
+    "mex2": "",
+    "mtr2": "",
+    "extranotes": ""
+  },
+  {
+    "mien": "ong",
+    "eng": "grandpa",
+    "pos": "noun",
+    "ipa": "oŋ˧",
+    "mex1": "",
+    "mtr1": "",
+    "mex2": "",
+    "mtr2": "",
+    "extranotes": ""
+  },
+  {
+    "mien": "haih",
+    "eng": "Can, to be able to",
+    "pos": "verb",
+    "ipa": "haɪ˧˩",
+    "mex1": "",
+    "mtr1": "",
+    "mex2": "",
+    "mtr2": "",
+    "extranotes": ""
+  },
+  {
+    "mien": "haix",
+    "eng": "to hear",
+    "pos": "verb",
+    "ipa": "haɪ˨˧",
+    "mex1": "",
+    "mtr1": "",
+    "mex2": "",
+    "mtr2": "",
+    "extranotes": ""
+  },
+  {
+    "mien": "hiaang",
+    "eng": "Part of a mien name",
+    "pos": "",
+    "ipa": "hiaŋ˧",
+    "mex1": "",
+    "mtr1": "",
+    "mex2": "",
+    "mtr2": "",
+    "extranotes": ""
+  },
+  {
+    "mien": "Hiaangx",
+    "eng": "To grow bigger (big fire)",
+    "pos": "verb",
+    "ipa": "hiaŋ˨˧",
+    "mex1": "",
+    "mtr1": "",
+    "mex2": "",
+    "mtr2": "",
+    "extranotes": ""
+  },
+  {
+    "mien": "hlan",
+    "eng": "liver",
+    "pos": "noun",
+    "ipa": "l̥ɐn˧",
+    "mex1": "",
+    "mtr1": "",
+    "mex2": "",
+    "mtr2": "",
+    "extranotes": ""
+  },
+  {
+    "mien": "hlang",
+    "eng": "Tall, high",
+    "pos": "adjective",
+    "ipa": "l̥ɐŋ˧",
+    "mex1": "",
+    "mtr1": "",
+    "mex2": "",
+    "mtr2": "",
+    "extranotes": ""
+  },
+  {
+    "mien": "hlaang",
+    "eng": "Rope, string",
+    "pos": "noun",
+    "ipa": "l̥aŋ˧",
+    "mex1": "",
+    "mtr1": "",
+    "mex2": "",
+    "mtr2": "",
+    "extranotes": ""
+  },
+  {
+    "mien": "hmuangx",
+    "eng": "Dark, night, opaque, not clear",
+    "pos": "adjective",
+    "ipa": "m̥uɐŋ˨˧",
+    "mex1": "",
+    "mtr1": "",
+    "mex2": "",
+    "mtr2": "",
+    "extranotes": ""
+  },
+  {
+    "mien": "hnangv",
+    "eng": "Only",
+    "pos": "",
+    "ipa": "n̥ɐŋ˦˥",
+    "mex1": "",
+    "mtr1": "",
+    "mex2": "",
+    "mtr2": "",
+    "extranotes": ""
+  },
+  {
+    "mien": "hnaangx",
+    "eng": "Cooked rice",
+    "pos": "noun",
+    "ipa": "n̥aŋ˨˧",
+    "mex1": "",
+    "mtr1": "",
+    "mex2": "",
+    "mtr2": "",
+    "extranotes": ""
+  },
+  {
+    "mien": "fih hnangv",
+    "eng": "Similar, same",
+    "pos": "",
+    "ipa": "fi˧˩ n̥ɐŋ˦˥",
+    "mex1": "",
+    "mtr1": "",
+    "mex2": "",
+    "mtr2": "",
+    "extranotes": ""
+  },
+  {
+    "mien": "hnangv haaix",
+    "eng": "How",
+    "pos": "",
+    "ipa": "n̥ɐŋ˦˥ haːɪ˨˧",
+    "mex1": "",
+    "mtr1": "",
+    "mex2": "",
+    "mtr2": "",
+    "extranotes": ""
+  },
+  {
+    "mien": "maiv",
+    "eng": "Negative marker",
+    "pos": "particle",
+    "ipa": "maɪ˦˥",
+    "mex1": "",
+    "mtr1": "",
+    "mex2": "",
+    "mtr2": "",
+    "extranotes": ""
+  },
+  {
+    "mien": "hnganx",
+    "eng": "",
+    "pos": "",
+    "ipa": "ŋ̊ɐn˨˧",
+    "mex1": "",
+    "mtr1": "",
+    "mex2": "",
+    "mtr2": "",
+    "extranotes": ""
+  },
+  {
+    "mien": "hniev",
+    "eng": "Heavy",
+    "pos": "",
+    "ipa": "n̥iə˦˥",
+    "mex1": "",
+    "mtr1": "",
+    "mex2": "",
+    "mtr2": "",
+    "extranotes": ""
+  },
+  {
+    "mien": "hnyamx",
+    "eng": "",
+    "pos": "",
+    "ipa": "ɲ̥ɐm˨˧",
+    "mex1": "",
+    "mtr1": "",
+    "mex2": "",
+    "mtr2": "",
+    "extranotes": ""
+  },
+  {
+    "mien": "hngongx",
+    "eng": "Stupid, dumb",
+    "pos": "adjective",
+    "ipa": "ŋ̊oŋ˨˧",
+    "mex1": "",
+    "mtr1": "",
+    "mex2": "",
+    "mtr2": "",
+    "extranotes": ""
+  },
+  {
+    "mien": "huing",
+    "eng": "to turn around, to circle around",
+    "pos": "",
+    "ipa": "huiŋ˧",
+    "mex1": "",
+    "mtr1": "",
+    "mex2": "",
+    "mtr2": "",
+    "extranotes": ""
+  },
+  {
+    "mien": "jauv",
+    "eng": "Path, street",
+    "pos": "",
+    "ipa": "t͡ɕaʊ˦˥",
+    "mex1": "",
+    "mtr1": "",
+    "mex2": "",
+    "mtr2": "",
+    "extranotes": ""
+  },
+  {
+    "mien": "jiouh",
+    "eng": "bridge",
+    "pos": "",
+    "ipa": "t͡ɕiəu˧˩",
+    "mex1": "",
+    "mtr1": "",
+    "mex2": "",
+    "mtr2": "",
+    "extranotes": ""
+  },
+  {
+    "mien": "jiouc",
+    "eng": "",
+    "pos": "",
+    "ipa": "t͡ɕiəu˨˩",
+    "mex1": "",
+    "mtr1": "",
+    "mex2": "",
+    "mtr2": "",
+    "extranotes": ""
+  },
+  {
+    "mien": "cingh-jaa",
+    "eng": "Wedding",
+    "pos": "",
+    "ipa": "tsʰiŋh-t͡ɕa˧",
+    "mex1": "",
+    "mtr1": "",
+    "mex2": "",
+    "mtr2": "",
+    "extranotes": ""
+  },
+  {
+    "mien": "kung",
+    "eng": "to spill",
+    "pos": "",
+    "ipa": "kʰuŋ˧",
+    "mex1": "",
+    "mtr1": "",
+    "mex2": "",
+    "mtr2": "",
+    "extranotes": ""
+  },
+  {
+    "mien": "kungx",
+    "eng": "Have time",
+    "pos": "",
+    "ipa": "kʰuŋ˨˧",
+    "mex1": "",
+    "mtr1": "",
+    "mex2": "",
+    "mtr2": "",
+    "extranotes": ""
+  },
+  {
+    "mien": "kungh",
+    "eng": "Keep doing, continue, continually",
+    "pos": "",
+    "ipa": "kʰuŋ˧˩",
+    "mex1": "",
+    "mtr1": "",
+    "mex2": "",
+    "mtr2": "",
+    "extranotes": ""
+  },
+  {
+    "mien": "lai",
+    "eng": "vegetables",
+    "pos": "",
+    "ipa": "laɪ˧",
+    "mex1": "",
+    "mtr1": "",
+    "mex2": "",
+    "mtr2": "",
+    "extranotes": ""
+  },
+  {
+    "mien": "Laai",
+    "eng": "Mien name Lai",
+    "pos": "",
+    "ipa": "laːɪ˧",
+    "mex1": "",
+    "mtr1": "",
+    "mex2": "",
+    "mtr2": "",
+    "extranotes": ""
+  },
+  {
+    "mien": "ga’haav",
+    "eng": "Behind, back",
+    "pos": "",
+    "ipa": "k’ɐ’ha˦˥",
+    "mex1": "",
+    "mtr1": "",
+    "mex2": "",
+    "mtr2": "",
+    "extranotes": ""
+  },
+  {
+    "mien": "mbungv",
+    "eng": "Bone",
+    "pos": "",
+    "ipa": "buŋ˦˥",
+    "mex1": "",
+    "mtr1": "",
+    "mex2": "",
+    "mtr2": "",
+    "extranotes": ""
+  },
+  {
+    "mien": "mbungh",
+    "eng": "",
+    "pos": "",
+    "ipa": "buŋ˧˩",
+    "mex1": "",
+    "mtr1": "",
+    "mex2": "",
+    "mtr2": "",
+    "extranotes": ""
+  },
+  {
+    "mien": "mbung",
+    "eng": "dusty, polluted?",
+    "pos": "",
+    "ipa": "buŋ˧",
+    "mex1": "",
+    "mtr1": "",
+    "mex2": "",
+    "mtr2": "",
+    "extranotes": ""
+  },
+  {
+    "mien": "niaa",
+    "eng": "Like that?",
+    "pos": "",
+    "ipa": "nia˧",
+    "mex1": "",
+    "mtr1": "",
+    "mex2": "",
+    "mtr2": "",
+    "extranotes": ""
+  },
+  {
+    "mien": "biaav",
+    "eng": "Stick",
+    "pos": "",
+    "ipa": "b’ia˦˥",
+    "mex1": "",
+    "mtr1": "",
+    "mex2": "",
+    "mtr2": "",
+    "extranotes": ""
+  },
+  {
+    "mien": "a’lov",
+    "eng": "(Exclamation to something bad or pitiful)",
+    "pos": "",
+    "ipa": "ɐ’lo˦˥",
+    "mex1": "",
+    "mtr1": "",
+    "mex2": "",
+    "mtr2": "",
+    "extranotes": ""
+  },
+  {
+    "mien": "a’loc",
+    "eng": "Used to",
+    "pos": "",
+    "ipa": "ɐ’lo˨˩",
+    "mex1": "",
+    "mtr1": "",
+    "mex2": "",
+    "mtr2": "",
+    "extranotes": ""
+  },
+  {
+    "mien": "njiangx",
+    "eng": "Bright",
+    "pos": "",
+    "ipa": "d͡ʑiɐŋ˨˧",
+    "mex1": "",
+    "mtr1": "",
+    "mex2": "",
+    "mtr2": "",
+    "extranotes": ""
+  },
+  {
+    "mien": "njiux",
+    "eng": "to look in a direction (?)",
+    "pos": "",
+    "ipa": "d͡ʑiu˨˧",
+    "mex1": "",
+    "mtr1": "",
+    "mex2": "",
+    "mtr2": "",
+    "extranotes": ""
+  },
+  {
+    "mien": "njiuc",
+    "eng": "",
+    "pos": "",
+    "ipa": "d͡ʑiu˨˩",
+    "mex1": "",
+    "mtr1": "",
+    "mex2": "",
+    "mtr2": "",
+    "extranotes": ""
+  },
+  {
+    "mien": "nyau",
+    "eng": "To grab",
+    "pos": "",
+    "ipa": "ɲaʊ˧",
+    "mex1": "",
+    "mtr1": "",
+    "mex2": "",
+    "mtr2": "",
+    "extranotes": ""
+  },
+  {
+    "mien": "nyauv",
+    "eng": "Troublesome",
+    "pos": "",
+    "ipa": "ɲaʊ˦˥",
+    "mex1": "",
+    "mtr1": "",
+    "mex2": "",
+    "mtr2": "",
+    "extranotes": ""
+  },
+  {
+    "mien": "nyaux",
+    "eng": "to wrinkle, to wither",
+    "pos": "",
+    "ipa": "ɲaʊ˨˧",
+    "mex1": "",
+    "mtr1": "",
+    "mex2": "",
+    "mtr2": "",
+    "extranotes": ""
+  },
+  {
+    "mien": "nyaah",
+    "eng": "",
+    "pos": "",
+    "ipa": "ɲa˧˩",
+    "mex1": "",
+    "mtr1": "",
+    "mex2": "",
+    "mtr2": "",
+    "extranotes": ""
+  },
+  {
+    "mien": "yietc",
+    "eng": "one (primary set)",
+    "pos": "noun / adjective",
+    "ipa": "jiətʰ˨˩",
+    "mex1": "",
+    "mtr1": "",
+    "mex2": "",
+    "mtr2": "",
+    "extranotes": ""
+  },
+  {
+    "mien": "i",
+    "eng": "two (primary set)",
+    "pos": "noun / adjective",
+    "ipa": "i˧",
+    "mex1": "",
+    "mtr1": "",
+    "mex2": "",
+    "mtr2": "",
+    "extranotes": ""
+  },
+  {
+    "mien": "buo",
+    "eng": "three (primary set)",
+    "pos": "noun / adjective",
+    "ipa": "b’uə˧",
+    "mex1": "",
+    "mtr1": "",
+    "mex2": "",
+    "mtr2": "",
+    "extranotes": ""
+  },
+  {
+    "mien": "biei",
+    "eng": "four (primary set)",
+    "pos": "noun / adjective",
+    "ipa": "b’iəi˧",
+    "mex1": "",
+    "mtr1": "",
+    "mex2": "",
+    "mtr2": "",
+    "extranotes": ""
+  },
+  {
+    "mien": "biaa",
+    "eng": "five (primary set)",
+    "pos": "noun / adjective",
+    "ipa": "b’ia˧",
+    "mex1": "",
+    "mtr1": "",
+    "mex2": "",
+    "mtr2": "",
+    "extranotes": ""
+  },
+  {
+    "mien": "juqv",
+    "eng": "six (primary set)",
+    "pos": "noun / adjective",
+    "ipa": "t͡ɕuʔ˦˥",
+    "mex1": "",
+    "mtr1": "",
+    "mex2": "",
+    "mtr2": "",
+    "extranotes": ""
+  },
+  {
+    "mien": "siec",
+    "eng": "seven (primary set)",
+    "pos": "noun / adjective",
+    "ipa": "siə˨˩",
+    "mex1": "",
+    "mtr1": "",
+    "mex2": "",
+    "mtr2": "",
+    "extranotes": ""
+  },
+  {
+    "mien": "hietc",
+    "eng": "eight (primary set)",
+    "pos": "noun / adjective",
+    "ipa": "hiətʰ˨˩",
+    "mex1": "",
+    "mtr1": "",
+    "mex2": "",
+    "mtr2": "",
+    "extranotes": ""
+  },
+  {
+    "mien": "ndouh",
+    "eng": "nine (primary set)",
+    "pos": "noun / adjective",
+    "ipa": "dəu˧˩",
+    "mex1": "",
+    "mtr1": "",
+    "mex2": "",
+    "mtr2": "",
+    "extranotes": ""
+  },
+  {
+    "mien": "ziepc",
+    "eng": "ten",
+    "pos": "noun / adjective",
+    "ipa": "ziəb’˨˩",
+    "mex1": "",
+    "mtr1": "",
+    "mex2": "",
+    "mtr2": "",
+    "extranotes": ""
+  },
+  {
+    "mien": "ziepc yietc",
+    "eng": "eleven",
+    "pos": "noun / adjective",
+    "ipa": "ziəb’˨˩ jiətʰ˨˩",
+    "mex1": "",
+    "mtr1": "",
+    "mex2": "",
+    "mtr2": "",
+    "extranotes": ""
+  },
+  {
+    "mien": "ziepc nyeic",
+    "eng": "twelve",
+    "pos": "noun / adjective",
+    "ipa": "ziəb’˨˩ ɲɛɪ˨˩",
+    "mex1": "",
+    "mtr1": "",
+    "mex2": "",
+    "mtr2": "",
+    "extranotes": ""
+  },
+  {
+    "mien": "ziepc faam",
+    "eng": "thirteen",
+    "pos": "noun / adjective",
+    "ipa": "ziəb’˨˩ fam˧",
+    "mex1": "",
+    "mtr1": "",
+    "mex2": "",
+    "mtr2": "",
+    "extranotes": ""
+  },
+  {
+    "mien": "ziepc feix",
+    "eng": "fourteen",
+    "pos": "noun / adjective",
+    "ipa": "ziəb’˨˩ fɛɪ˨˧",
+    "mex1": "",
+    "mtr1": "",
+    "mex2": "",
+    "mtr2": "",
+    "extranotes": ""
+  },
+  {
+    "mien": "ziepc hmz",
+    "eng": "fifteen",
+    "pos": "noun / adjective",
+    "ipa": "ziəb’˨˩ m̥˨˧",
+    "mex1": "",
+    "mtr1": "",
+    "mex2": "",
+    "mtr2": "",
+    "extranotes": ""
+  },
+  {
+    "mien": "ziepc luoqc",
+    "eng": "Sixteen",
+    "pos": "noun / adjective",
+    "ipa": "ziəb’˨˩ luəʔ˨˩",
+    "mex1": "",
+    "mtr1": "",
+    "mex2": "",
+    "mtr2": "",
+    "extranotes": ""
+  },
+  {
+    "mien": "ziepc cietv",
+    "eng": "seventeen",
+    "pos": "noun / adjective",
+    "ipa": "ziəb’˨˩ tsʰiətʰ˦˥",
+    "mex1": "",
+    "mtr1": "",
+    "mex2": "",
+    "mtr2": "",
+    "extranotes": ""
+  },
+  {
+    "mien": "ziepc betv",
+    "eng": "eighteen",
+    "pos": "noun / adjective",
+    "ipa": "ziəb’˨˩ b’etʰ˦˥",
+    "mex1": "",
+    "mtr1": "",
+    "mex2": "",
+    "mtr2": "",
+    "extranotes": ""
+  },
+  {
+    "mien": "ziepc juov",
+    "eng": "nineteen",
+    "pos": "noun / adjective",
+    "ipa": "ziəb’˨˩ t͡ɕuə˦˥",
+    "mex1": "",
+    "mtr1": "",
+    "mex2": "",
+    "mtr2": "",
+    "extranotes": ""
+  },
+  {
+    "mien": "nyeic ziepc",
+    "eng": "twenty",
+    "pos": "noun / adjective",
+    "ipa": "ɲɛɪ˨˩ ziəb’˨˩",
+    "mex1": "",
+    "mtr1": "",
+    "mex2": "",
+    "mtr2": "",
+    "extranotes": ""
+  },
+  {
+    "mien": "faah ziepc",
+    "eng": "thirty",
+    "pos": "noun / adjective",
+    "ipa": "fam˧ ziəb’˨˩",
+    "mex1": "",
+    "mtr1": "",
+    "mex2": "",
+    "mtr2": "",
+    "extranotes": ""
+  },
+  {
+    "mien": "feix ziepc",
+    "eng": "fourty",
+    "pos": "noun / adjective",
+    "ipa": "fɛɪ˨˧ ziəb’˨˩",
+    "mex1": "",
+    "mtr1": "",
+    "mex2": "",
+    "mtr2": "",
+    "extranotes": ""
+  },
+  {
+    "mien": "hmz ziepc",
+    "eng": "fifty",
+    "pos": "noun / adjective",
+    "ipa": "m̥˨˧ ziəb’˨˩",
+    "mex1": "",
+    "mtr1": "",
+    "mex2": "",
+    "mtr2": "",
+    "extranotes": ""
+  },
+  {
+    "mien": "luoqc ziepc",
+    "eng": "sixty",
+    "pos": "noun / adjective",
+    "ipa": "luəʔ˨˩ ziəb’˨˩",
+    "mex1": "",
+    "mtr1": "",
+    "mex2": "",
+    "mtr2": "",
+    "extranotes": ""
+  },
+  {
+    "mien": "cietv ziepc",
+    "eng": "seventy",
+    "pos": "noun / adjective",
+    "ipa": "ciətʰ˦˥ ziəb’˨˩",
+    "mex1": "",
+    "mtr1": "",
+    "mex2": "",
+    "mtr2": "",
+    "extranotes": ""
+  },
+  {
+    "mien": "baetz ziepc",
+    "eng": "eighty",
+    "pos": "noun / adjective",
+    "ipa": "b’etʰ˦˥ ziəb’˨˩",
+    "mex1": "",
+    "mtr1": "",
+    "mex2": "",
+    "mtr2": "",
+    "extranotes": ""
+  },
+  {
+    "mien": "juov ziepc",
+    "eng": "ninety",
+    "pos": "noun / adjective",
+    "ipa": "t͡ɕuə˦˥ ziəb’˨˩",
+    "mex1": "",
+    "mtr1": "",
+    "mex2": "",
+    "mtr2": "",
+    "extranotes": ""
+  },
+  {
+    "mien": "yietc baeqv",
+    "eng": "One hundred",
+    "pos": "noun / adjective",
+    "ipa": "jiətʰ˨˩ b’æʔ˦˥",
+    "mex1": "",
+    "mtr1": "",
+    "mex2": "",
+    "mtr2": "",
+    "extranotes": "primary +"
+  },
+  {
+    "mien": "nyeic baeqv",
+    "eng": "Two hundred",
+    "pos": "noun / adjective",
+    "ipa": "ɲɛɪ˨˩ b’æʔ˦˥",
+    "mex1": "",
+    "mtr1": "",
+    "mex2": "",
+    "mtr2": "",
+    "extranotes": "secondary +"
+  },
+  {
+    "mien": "faam baeqv",
+    "eng": "Three hundred",
+    "pos": "noun / adjective",
+    "ipa": "fam˧ b’æʔ˦˥",
+    "mex1": "",
+    "mtr1": "",
+    "mex2": "",
+    "mtr2": "",
+    "extranotes": "secondary +"
+  },
+  {
+    "mien": "feix baeqv",
+    "eng": "Four hundred",
+    "pos": "noun / adjective",
+    "ipa": "fɛɪ˨˧ b’æʔ˦˥",
+    "mex1": "",
+    "mtr1": "",
+    "mex2": "",
+    "mtr2": "",
+    "extranotes": "secondary +"
+  },
+  {
+    "mien": "hmz baeqv",
+    "eng": "Five hundred",
+    "pos": "noun / adjective",
+    "ipa": "m̥˨˧ b’æʔ˦˥",
+    "mex1": "",
+    "mtr1": "",
+    "mex2": "",
+    "mtr2": "",
+    "extranotes": "secondary +"
+  },
+  {
+    "mien": "luoqc baeqv",
+    "eng": "Six hundred",
+    "pos": "noun / adjective",
+    "ipa": "luəʔ˨˩ b’æʔ˦˥",
+    "mex1": "",
+    "mtr1": "",
+    "mex2": "",
+    "mtr2": "",
+    "extranotes": "secondary +"
+  },
+  {
+    "mien": "cietv baeqv",
+    "eng": "Seven hundred",
+    "pos": "noun / adjective",
+    "ipa": "tsʰiətʰ˦˥ b’æʔ˦˥",
+    "mex1": "",
+    "mtr1": "",
+    "mex2": "",
+    "mtr2": "",
+    "extranotes": "secondary +"
+  },
+  {
+    "mien": "baetv baeqv",
+    "eng": "Eight hundred",
+    "pos": "noun / adjective",
+    "ipa": "b’etʰ˦˥",
+    "mex1": "",
+    "mtr1": "",
+    "mex2": "",
+    "mtr2": "",
+    "extranotes": "secondary +"
+  },
+  {
+    "mien": "juov baeqv",
+    "eng": "Nine hundred",
+    "pos": "noun / adjective",
+    "ipa": "t͡ɕuə˦˥",
+    "mex1": "",
+    "mtr1": "",
+    "mex2": "",
+    "mtr2": "",
+    "extranotes": "secondary +"
+  },
+  {
+    "mien": "yietc cin",
+    "eng": "One thousand",
+    "pos": "noun / adjective",
+    "ipa": "jiətʰ˨˩",
+    "mex1": "",
+    "mtr1": "",
+    "mex2": "",
+    "mtr2": "",
+    "extranotes": "primary +"
+  },
+  {
+    "mien": "i cin",
+    "eng": "Two thousand",
+    "pos": "noun / adjective",
+    "ipa": "i˧",
+    "mex1": "",
+    "mtr1": "",
+    "mex2": "",
+    "mtr2": "",
+    "extranotes": "primary +"
+  },
+  {
+    "mien": "buo cin",
+    "eng": "three thousand",
+    "pos": "noun / adjective",
+    "ipa": "b’uə˧",
+    "mex1": "",
+    "mtr1": "",
+    "mex2": "",
+    "mtr2": "",
+    "extranotes": "primary +"
+  },
+  {
+    "mien": "biei cin",
+    "eng": "four thousand",
+    "pos": "noun / adjective",
+    "ipa": "b’iəi˧",
+    "mex1": "",
+    "mtr1": "",
+    "mex2": "",
+    "mtr2": "",
+    "extranotes": "primary +"
+  },
+  {
+    "mien": "biaa cin",
+    "eng": "five thousand",
+    "pos": "noun / adjective",
+    "ipa": "b’ia˧",
+    "mex1": "",
+    "mtr1": "",
+    "mex2": "",
+    "mtr2": "",
+    "extranotes": "primary +"
+  },
+  {
+    "mien": "juqv cin",
+    "eng": "Six thousand",
+    "pos": "noun / adjective",
+    "ipa": "t͡ɕuʔ˦˥",
+    "mex1": "",
+    "mtr1": "",
+    "mex2": "",
+    "mtr2": "",
+    "extranotes": "primary +"
+  },
+  {
+    "mien": "luoqc cin",
+    "eng": "Seven thousand",
+    "pos": "noun / adjective",
+    "ipa": "luəʔ˨˩",
+    "mex1": "",
+    "mtr1": "",
+    "mex2": "",
+    "mtr2": "",
+    "extranotes": "primary +"
+  },
+  {
+    "mien": "ndough cin",
+    "eng": "eight thousand",
+    "pos": "noun / adjective",
+    "ipa": "",
+    "mex1": "",
+    "mtr1": "",
+    "mex2": "",
+    "mtr2": "",
+    "extranotes": "primary +"
+  },
+  {
+    "mien": "juov cin",
+    "eng": "nine thousand",
+    "pos": "noun / adjective",
+    "ipa": "t͡ɕuə˦˥",
+    "mex1": "",
+    "mtr1": "",
+    "mex2": "",
+    "mtr2": "",
+    "extranotes": ""
+  },
+  {
+    "mien": "ziepc cin",
+    "eng": "Ten thousand",
+    "pos": "noun / adjective",
+    "ipa": "",
+    "mex1": "",
+    "mtr1": "",
+    "mex2": "",
+    "mtr2": "",
+    "extranotes": ""
+  },
+  {
+    "mien": "yietc waanc",
+    "eng": "One hundred thousand",
+    "pos": "noun / adjective",
+    "ipa": "",
+    "mex1": "",
+    "mtr1": "",
+    "mex2": "",
+    "mtr2": "",
+    "extranotes": ""
+  },
+  {
+    "mien": "yietc baeqv waanc",
+    "eng": "One million",
+    "pos": "noun / adjective",
+    "ipa": "",
+    "mex1": "",
+    "mtr1": "",
+    "mex2": "",
+    "mtr2": "",
+    "extranotes": ""
+  },
+  {
+    "mien": "nyeic",
+    "eng": "two (secondary set)",
+    "pos": "noun / adjective",
+    "ipa": "ɲɛɪ˨˩",
+    "mex1": "",
+    "mtr1": "",
+    "mex2": "",
+    "mtr2": "",
+    "extranotes": ""
+  },
+  {
+    "mien": "faam",
+    "eng": "three (secondary set)",
+    "pos": "noun / adjective",
+    "ipa": "fam˧",
+    "mex1": "",
+    "mtr1": "",
+    "mex2": "",
+    "mtr2": "",
+    "extranotes": ""
+  },
+  {
+    "mien": "feix",
+    "eng": "four (secondary set)",
+    "pos": "noun / adjective",
+    "ipa": "fɛɪ˨˧",
+    "mex1": "",
+    "mtr1": "",
+    "mex2": "",
+    "mtr2": "",
+    "extranotes": ""
+  },
+  {
+    "mien": "hmz",
+    "eng": "five (secondary set)",
+    "pos": "noun / adjective",
+    "ipa": "m̥˨˧",
+    "mex1": "",
+    "mtr1": "",
+    "mex2": "",
+    "mtr2": "",
+    "extranotes": ""
+  },
+  {
+    "mien": "luoqc",
+    "eng": "six (secondary set)",
+    "pos": "noun / adjective",
+    "ipa": "luəʔ˨˩",
+    "mex1": "",
+    "mtr1": "",
+    "mex2": "",
+    "mtr2": "",
+    "extranotes": ""
+  },
+  {
+    "mien": "cietv",
+    "eng": "seven (secondary set)",
+    "pos": "noun / adjective",
+    "ipa": "ciətʰ˦˥",
+    "mex1": "",
+    "mtr1": "",
+    "mex2": "",
+    "mtr2": "",
+    "extranotes": ""
+  },
+  {
+    "mien": "betv",
+    "eng": "eight (secondary set)",
+    "pos": "noun / adjective",
+    "ipa": "b’etʰ˦˥",
+    "mex1": "",
+    "mtr1": "",
+    "mex2": "",
+    "mtr2": "",
+    "extranotes": ""
+  },
+  {
+    "mien": "juov",
+    "eng": "nine (secondary set)",
+    "pos": "noun / adjective",
+    "ipa": "t͡ɕuə˦˥",
+    "mex1": "",
+    "mtr1": "",
+    "mex2": "",
+    "mtr2": "",
+    "extranotes": ""
+  },
+  {
+    "mien": "da’yietv",
+    "eng": "first, position one in an order",
+    "pos": "noun / adjective",
+    "ipa": "tɐ’jiətʰ˦˥",
+    "mex1": "",
+    "mtr1": "",
+    "mex2": "",
+    "mtr2": "",
+    "extranotes": ""
+  },
+  {
+    "mien": "da’nyeic",
+    "eng": "second, position two in an order",
+    "pos": "noun / adjective",
+    "ipa": "tɐ’ɲɛɪ˨˩",
+    "mex1": "",
+    "mtr1": "",
+    "mex2": "",
+    "mtr2": "",
+    "extranotes": ""
+  },
+  {
+    "mien": "da’faam",
+    "eng": "third, position three in an order",
+    "pos": "noun / adjective",
+    "ipa": "tɐ’fam˧",
+    "mex1": "",
+    "mtr1": "",
+    "mex2": "",
+    "mtr2": "",
+    "extranotes": ""
+  },
+  {
+    "mien": "da’feix",
+    "eng": "fourth, position four in an order",
+    "pos": "noun / adjective",
+    "ipa": "tɐ’fɛɪ˨˧",
+    "mex1": "",
+    "mtr1": "",
+    "mex2": "",
+    "mtr2": "",
+    "extranotes": ""
+  },
+  {
+    "mien": "da’hmz",
+    "eng": "fifth, position five in an order",
+    "pos": "noun / adjective",
+    "ipa": "tɐ’m̥˨˧",
+    "mex1": "",
+    "mtr1": "",
+    "mex2": "",
+    "mtr2": "",
+    "extranotes": ""
+  },
+  {
+    "mien": "da’luoqc",
+    "eng": "sixth, position six in an order",
+    "pos": "noun / adjective",
+    "ipa": "tɐ’luəʔ˨˩",
+    "mex1": "",
+    "mtr1": "",
+    "mex2": "",
+    "mtr2": "",
+    "extranotes": ""
+  },
+  {
+    "mien": "da’cietv",
+    "eng": "seventh, position seven in an order",
+    "pos": "noun / adjective",
+    "ipa": "tɐ’ciətʰ˦˥",
+    "mex1": "",
+    "mtr1": "",
+    "mex2": "",
+    "mtr2": "",
+    "extranotes": ""
+  },
+  {
+    "mien": "da’betv",
+    "eng": "eighth, position eight in an order",
+    "pos": "noun / adjective",
+    "ipa": "tɐ’b’etʰ˦˥",
+    "mex1": "",
+    "mtr1": "",
+    "mex2": "",
+    "mtr2": "",
+    "extranotes": ""
+  },
+  {
+    "mien": "da’juov",
+    "eng": "ninth, position nine in an order",
+    "pos": "noun / adjective",
+    "ipa": "tɐ’t͡ɕuə˦˥",
+    "mex1": "",
+    "mtr1": "",
+    "mex2": "",
+    "mtr2": "",
+    "extranotes": ""
+  },
+  {
+    "mien": "da’ziepc",
+    "eng": "tenth, position ten in an order",
+    "pos": "noun / adjective",
+    "ipa": "tɐ’ziəb’˨˩",
+    "mex1": "",
+    "mtr1": "",
+    "mex2": "",
+    "mtr2": "",
+    "extranotes": ""
+  },
+  {
+    "mien": "haiz",
+    "eng": "to hear",
+    "pos": "verb",
+    "ipa": "",
+    "mex1": "Yie haiz ntu meih.",
+    "mtr1": "I can’t hear you.",
+    "mex2": "",
+    "mtr2": "",
+    "extranotes": ""
+  },
+  {
+    "mien": "haih",
+    "eng": "to know how to, be able to do something",
+    "pos": "verb",
+    "ipa": "",
+    "mex1": "",
+    "mtr1": "",
+    "mex2": "",
+    "mtr2": "",
+    "extranotes": ""
+  },
+  {
+    "mien": "gapv",
+    "eng": "to put together",
+    "pos": "verb",
+    "ipa": "",
+    "mex1": "",
+    "mtr1": "",
+    "mex2": "",
+    "mtr2": "",
+    "extranotes": ""
+  }
 ]

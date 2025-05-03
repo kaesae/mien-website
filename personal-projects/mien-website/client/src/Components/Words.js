@@ -1,4 +1,4 @@
-import {useState} from 'react';
+import {useState, useEffect, useRef} from 'react';
 import {data} from '../Resources/data'
 
 const Words = () => {
@@ -12,6 +12,8 @@ const Words = () => {
         return words.filter(word => word.words.includes(search))
     }
 
+
+
     // const filteredWords = getFilteredWords(search, words);
 
     return (
@@ -19,7 +21,7 @@ const Words = () => {
             <div className='dictionaryContainer'>
                 <div className='searchContainer'>
                     <input 
-                    id='searchbox' 
+                    id='searchBox' 
                     type="text" 
                     onChange={(e) => setSearch(e.target.value)} 
                     />
@@ -28,22 +30,22 @@ const Words = () => {
                     .filter((word) => {
                         return search.toLowerCase() === ''
                         ? word
-                        : word.Mien_word.toLowerCase().includes(search)
-                        || word.English_meaning.toLowerCase().includes(search)
+                        : word.mien.toLowerCase().includes(search)
+                        || word.eng.toLowerCase().includes(search)
                     })
                     .map((word) => (
-                        <div key={data.id} className='cardContainer'>
+                        <div key={data.id} id='wordCard'>
                             <div className='wordContainer'>
-                                <div className='word'>{word.Mien_word}</div>
+                                <div className='word'>{word.mien.toLowerCase()}</div>
                             </div>
                             <div className='details'>
-                                <div className='detailstop'>{word['Part of speech']}</div>
-                                <div className='detailsbot'>also noun</div>
+                                <div className='detailstop'>{word.pos}</div>
+                                <div className='detailsbot'>/{word.ipa}/</div>
                             </div>
                             <div className='meaningContainer'>
                                 <div>
-                                    <p id='def'>{word.English_meaning}</p>
-                                    <p id='ex'>{word.Mien_example} [{word.English_example}]</p>
+                                    <p id='def'>{word.eng}</p>
+                                    <p id='ex'>{word.mex1} [{word.mtr1}]</p>
                                 </div>
                             </div>
                         </div>

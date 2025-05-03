@@ -1,5 +1,4 @@
-export const CVT =
-  [
+export const CVT = [
   {
     "Letters": "b",
     "c_mien_example": "buoz",
