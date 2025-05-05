@@ -15,35 +15,36 @@ const Sounds = () => {
     // const filteredWords = getFilteredWords(search, words);
 
     return (
-        <div className='soundsContainer'>
-            <div className='dictionaryContainer'>
+        <div className='cardContainer'>
+            <div className='soundsContainer'>
                 <div className='searchContainer'>
                     <input 
                     id='soundsInput' 
                     type="text" 
                     onChange={(e) => setDictionary(e.target.value)} />
                 </div>
+                {/* Filter the words based on input */}
                     {CVT
                     .filter((sound) => {
                         return dictionary.toLowerCase() === ''
                         ? sound
                         : sound.Letters.toLowerCase().includes(dictionary)
-                        || sound.English_example.toLowerCase().includes(dictionary)
+                        || sound.c_mien_example.toLowerCase().includes(dictionary)
                     })
+                    // Return it in lowercase
                     .map((sound) => (
-                        <div key={CVT.id} className='cardContainer'>
-                            <div className='wordContainer'>
+                        <div key={CVT.id} className='soundCard'>
+                            <div className='soundContainer'>
                                 <div className='word'>{sound.Letters}</div>
                             </div>
                             <div className='meaningContainer'>
                                 <div>
                                     <p id='ipa'>{sound.IPA}</p>
-                                    <p id='mex'>{sound.Mien_example} [{sound.English_example}]</p>
                                 </div>
                             </div>
                             <div className='details'>
-                                <div className='detailstop'>{sound.c_mien_example}</div>
-                                <div className='detailsbot'>{sound.c_english_meaning}</div>
+                                <div className='detailsTop'>{sound.c_mien_example}</div>
+                                <div className='detailsBot'>{sound.c_english_meaning}</div>
                             </div>
                         </div>
                     ))}

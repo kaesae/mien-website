@@ -1,6 +1,7 @@
 html, body {
     margin: 0;
     padding: 0;
+    overflow: hidden;
 }
 
 #App {
@@ -112,27 +113,21 @@ aside .asideRight {
 
 /* General Body */
 
-.bodyContainer {
+.dictContainer {
     height: 100vh;
     display: flex;
-    display: flex;
+    /* flex-direction: column; */
     justify-content: space-around;
-    
 }
 
 /* Dictionary */
 
 #searchBox {
-    width: ;
-
+    width: fit-content;
 }
 
 .searchContainer {
     text-align: center;
-}
-
-#searchBox {
-    
 }
 
 #dictHeader {
@@ -147,6 +142,13 @@ aside .asideRight {
     border-radius: 20%;
     padding: 40px 40px 40px 40px;
     flex-wrap: wrap;
+}
+
+.cardContainer {
+    /* flex: 1; */
+    overflow-y: auto;
+    padding: 1rem;
+    scrollbar-width: none;
 }
 
 .wordContainer {
@@ -172,7 +174,7 @@ aside .asideRight {
     width: fit-content;
 }
 
-.detailsbot{
+.detailsBot{
     text-decoration: underline;
     text-decoration-thickness: 2px;
     text-underline-offset: 8px;
