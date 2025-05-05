@@ -1,8 +1,9 @@
 import {useState, useEffect, useRef} from 'react';
 import {data} from '../Resources/data'
 
-const Words = () => {
+const Words = ({sendMes}) => {
     const [search, setSearch] = useState("");
+
 
     const filterSounds = (search, words) => {
         if (!search) {
@@ -14,6 +15,8 @@ const Words = () => {
     return (
         <div className='cardContainer'>
             <div className='wordsContainer'>
+                <button onClick={() => sendMes("b")}>send to sounds</button>
+
                 <div className='searchContainer'>
                     <input 
                     id='searchBox' 
