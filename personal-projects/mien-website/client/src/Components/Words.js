@@ -32,18 +32,29 @@ const Words = ({sendMes}) => {
                         || word.eng.toLowerCase().includes(search)
                     })
                     .map((word) => (
-                        <button onClick={filterSounds} key={data.id} id='wordCard'>
+                        <button 
+                        onClick={filterSounds} 
+                        key={data.id} 
+                        id='card'
+                        className='wordCard'>
                             <div className='wordContainer'>
-                                <div className='word'>{word.mien.toLowerCase()}</div>
+                                <div className='word'>
+                                    {word.mien.toLowerCase()}</div>
                             </div>
                             <div className='details'>
-                                <div className='detailstop'>{word.pos}</div>
-                                <div className='detailsbot'>/{word.ipa}/</div>
+                                <div className='detailsTop'>
+                                    {word.pos}
+                                    </div>
+                                <div className='detailsBot'>
+                                    / {word.ipa} /
+                                    </div>
                             </div>
                             <div className='meaningContainer'>
                                 <div>
-                                    <p id='def'>{word.eng}</p>
-                                    <p id='ex'>{word.mex1} [{word.mtr1}]</p>
+                                    <p id='def'>
+                                        {word.eng}</p>
+                                    <p id='ex'>
+                                        {word.mex1} [{word.mtr1}]</p>
                                 </div>
                             </div>
                         </button>
