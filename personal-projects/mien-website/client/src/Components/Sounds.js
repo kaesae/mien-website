@@ -1,5 +1,5 @@
 import {useEffect, useState} from 'react';
-import {CVT} from '../Resources/CVT'
+import {CVT} from '../Resources/data.js'
 
 const Sounds = ({getMes}) => {
     const [dictionary, setDictionary] = useState("");

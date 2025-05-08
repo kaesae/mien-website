@@ -1,7 +1,10 @@
+/* General */
 html, body {
     margin: 0;
     padding: 0;
     overflow: hidden;
+    height: 100%;
+    width: 100%;
 }
 
 #App {
@@ -9,11 +12,42 @@ html, body {
     background-color: #D9D9D9;
 }
 
+li {
+    list-style-type: none;
+}
+
+li:hover {
+    transform: scale(1.1);
+    /* transition: transform 0.2s ease-in; */
+    opacity: 0.8;
+    text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.3);
+}
+
+/* Header */
+
+#header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 15%; 
+    padding: 1rem 2rem;
+
+}
+
+.logo {
+    width: 40vw;
+}
+
 #hamburger {
     font-size: 50px;
     background: none;
     border: none;
     cursor: pointer;
+    position: absolute;
+    left: 1rem;
+    top: 50%;
+    transform: translateY(-50%);
 }
 
 .menu {
@@ -23,7 +57,7 @@ html, body {
     display: none;
     flex-direction: column;
     position: absolute;
-    top: 60px;
+    top: 70%;
     left: 5px;
     background: white;
     border: 1px solid #ccc;
@@ -52,56 +86,41 @@ html, body {
     border-bottom: none;
 }
 
+
+
 /* Landing Page */
 
 .landingPage {
     display: flex;
     text-align: center;
     width: 100vw;
-    height: 100vh;
+    height: 100%;
     flex-direction: row;
     flex-wrap: nowrap;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.leftSide {
+.left {
     width: 60vw;
-    height: 100vh;
+    height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
 
-#header {
-    padding: 5px 0 15px 10px;
-}
-
-.logo {
-    width: 40vw;
-}
 
 .carouselImage {
     width: 15vw;
 }
 
-.gallery {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
-}
-.gallery img {
-width: 200px;
-object-fit: cover;
-}
-
 .right {
     display: flex;
     justify-content: space-evenly;
-    height: 100vh;
+    height: 100%;
     overflow: hidden;
     padding: 0 8px 0 8px;
     background-color: black;
-    max-width: 40vw;
+    max-width: 40%;
 }
 
 .leftMedia {
@@ -115,19 +134,18 @@ object-fit: cover;
     display: flex;
     flex-direction: column-reverse;
     animation: bottom-to-top 20s infinite;
-
 }
 
 .rightSide {
     width: 40vw;
-    height: 100vh;
     display: flex;
     justify-content: space-evenly;
-    height: 100vh;
+    height: 100%;
     overflow: hidden;
     padding: 0 8px 0 8px;
     background-color: black;
     max-width: 40vw;
+    flex: 1;
 }
 
 @keyframes top-to-bottom {

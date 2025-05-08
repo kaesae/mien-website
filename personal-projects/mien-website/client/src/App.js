@@ -1,31 +1,25 @@
-import { Link, Route, Routes } from "react-router-dom";
-import { useEffect, useState, useTransition } from "react";
+import { Route, Routes } from "react-router-dom";
 
 import './App.css';
 import ContactMe from "./Components/ContactMe";
 import Dictionary from "./Components/Dictionary";
 import LandingPage from "./Components/LandingPage";
 import './CSS/styles.css';
+import Header from "./Components/Header";
+import Footer from "./Components/Footer";
 
 
 function App() {
-    
-  const handleChange = (value) => {
-
-  }
-
-  const handleClick = () => {
-
-  }
-
   return (
-    <div className="App">
+    <div id="App">
+      <Header />
       <Routes>
         <Route path='/' element={<LandingPage />}></Route>
         <Route path='/dictionary' element={<Dictionary />}></Route>
         {/* <Route path='/about' element={<About />}></Route> */}
         <Route path='/contactme' element={<ContactMe />}></Route>
       </Routes>
+      <Footer />
     </div>
   );
 }

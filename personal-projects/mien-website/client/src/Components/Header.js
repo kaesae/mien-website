@@ -1,6 +1,8 @@
 import { useState } from 'react';
 import {Link} from 'react-router-dom';
 import ContactMe from './ContactMe';
+import Logo from '../Media/logo.png';
+
 
 const Header = (show, setShow) => {
     const [menu, setMenu] = useState(false);
@@ -18,6 +20,7 @@ const Header = (show, setShow) => {
                 <li><Link className='links' to='about'><p>About</p></Link></li>
                 <li><ContactMe /></li>
             </ul>
+            <Link className='links' to='/'><img className="logo" src={Logo} /></Link>
         </header>
     )
 }
