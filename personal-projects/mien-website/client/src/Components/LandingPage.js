@@ -1,3 +1,4 @@
+import { text } from '../Resources/text.js';
 
 import photo1 from '../Media/Carousel/woman_from_unsplash.jpg';
 import photo2 from '../Media/Carousel/mien_woman.png'
@@ -11,8 +12,15 @@ const LandingPage = () => {
     return (
         <div className='landingPage'>
             <div className="left">
-                <p>Hey there, welcome to Mienglish.</p>
-                <p>Mienglish is a Mien-English dictionary to help you learn Mien.</p>
+                <h1 className=''>{`${text[0].landingpage["header"]}`}</h1>
+                <p>{`${text[0].landingpage["intro"]}`}</p>
+                <h2>{`${text[0].landingpage["subhead1"]}`}</h2>
+                <p>{`${text[0].landingpage["point1"]}`}</p>
+                <h2>{`${text[0].landingpage["subhead2"]}`}</h2>
+                <p>{`${text[0].landingpage["point2"]}`}</p>
+                <h2>{`${text[0].landingpage["subhead3"]}`}</h2>
+                <p>{`${text[0].landingpage["point3"]}`}</p>
+                <h5>{`${text[0].landingpage["cta"]}`}</h5>
             </div>
             <div className='right'>
                 <div className="rightSide">

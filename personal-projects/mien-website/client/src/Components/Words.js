@@ -3,6 +3,7 @@ import {data} from '../Resources/data'
 
 const Words = ({sendMes}) => {
     const [search, setSearch] = useState("");
+    const [it, setIt] = useState("");
 
 
     const filterSounds = (search, words) => {
@@ -15,8 +16,7 @@ const Words = ({sendMes}) => {
     return (
         <div className='cardContainer'>
             <div className='wordsContainer'>
-                <button onClick={() => sendMes("b")}>send to sounds</button>
-
+                <button onClick={() => sendMes("buoz")}>send to sounds {`${it}`}{`${data.id}`}</button>
                 <div className='searchContainer'>
                     <input 
                     id='searchBox' 
@@ -33,8 +33,11 @@ const Words = ({sendMes}) => {
                     })
                     .map((word) => (
                         <button 
-                        onClick={filterSounds} 
                         key={data.id} 
+                        onClick={() => {
+                            setIt(data.id);
+                            console.log(data);
+                        }} 
                         id='card'
                         className='wordCard'>
                             <div className='wordContainer'>
