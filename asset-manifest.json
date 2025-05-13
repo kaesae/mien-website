@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.6be2cab2.css",
-    "main.js": "/static/js/main.7036f223.js",
-    "static/js/787.a9fc8bb4.chunk.js": "/static/js/787.a9fc8bb4.chunk.js",
-    "static/media/woman_from_unsplash.jpg": "/static/media/woman_from_unsplash.cd20fc150a352c7de8b1.jpg",
-    "static/media/mien_woman.png": "/static/media/mien_woman.6bab21927065eca96ce1.png",
-    "static/media/logo.png": "/static/media/logo.5a845e64f74890ccb285.png",
-    "index.html": "/index.html",
-    "main.6be2cab2.css.map": "/static/css/main.6be2cab2.css.map",
-    "main.7036f223.js.map": "/static/js/main.7036f223.js.map",
-    "787.a9fc8bb4.chunk.js.map": "/static/js/787.a9fc8bb4.chunk.js.map"
+    "main.css": "/mien-website/static/css/main.6be2cab2.css",
+    "main.js": "/mien-website/static/js/main.4c08ba07.js",
+    "static/js/787.a9fc8bb4.chunk.js": "/mien-website/static/js/787.a9fc8bb4.chunk.js",
+    "static/media/woman_from_unsplash.jpg": "/mien-website/static/media/woman_from_unsplash.cd20fc150a352c7de8b1.jpg",
+    "static/media/mien_woman.png": "/mien-website/static/media/mien_woman.6bab21927065eca96ce1.png",
+    "static/media/logo.png": "/mien-website/static/media/logo.5a845e64f74890ccb285.png",
+    "index.html": "/mien-website/index.html",
+    "main.6be2cab2.css.map": "/mien-website/static/css/main.6be2cab2.css.map",
+    "main.4c08ba07.js.map": "/mien-website/static/js/main.4c08ba07.js.map",
+    "787.a9fc8bb4.chunk.js.map": "/mien-website/static/js/787.a9fc8bb4.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6be2cab2.css",
-    "static/js/main.7036f223.js"
+    "static/js/main.4c08ba07.js"
   ]
 }
