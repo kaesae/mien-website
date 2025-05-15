@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/mien-website/static/css/main.6be2cab2.css",
-    "main.js": "/mien-website/static/js/main.d7f13281.js",
+    "main.js": "/mien-website/static/js/main.2da46760.js",
     "static/media/woman_from_unsplash.jpg": "/mien-website/static/media/woman_from_unsplash.cd20fc150a352c7de8b1.jpg",
     "static/media/mien_woman.png": "/mien-website/static/media/mien_woman.6bab21927065eca96ce1.png",
     "static/media/logo.png": "/mien-website/static/media/logo.5a845e64f74890ccb285.png",
     "index.html": "/mien-website/index.html",
     "main.6be2cab2.css.map": "/mien-website/static/css/main.6be2cab2.css.map",
-    "main.d7f13281.js.map": "/mien-website/static/js/main.d7f13281.js.map"
+    "main.2da46760.js.map": "/mien-website/static/js/main.2da46760.js.map"
   },
   "entrypoints": [
     "static/css/main.6be2cab2.css",
-    "static/js/main.d7f13281.js"
+    "static/js/main.2da46760.js"
   ]
 }
