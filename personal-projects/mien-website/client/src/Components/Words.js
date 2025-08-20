@@ -1,29 +1,12 @@
 import {useState, useEffect, useRef} from 'react';
 import {data} from '../Resources/data'
 
-const Words = ({sendMes}) => {
-    const [search, setSearch] = useState("");
+const Words = ({sendMes, search}) => {
     const [it, setIt] = useState("");
-
-
-    const filterSounds = (search, words) => {
-        if (!search) {
-            return words;
-        }
-        return words.filter(word => word.words.includes(search))
-    }
 
     return (
         <div className='cardContainer'>
-            <div className='wordsContainer'>
-                <button onClick={() => sendMes("buoz")}>send to sounds {`${it}`}{`${data.id}`}</button>
-                <div className='searchContainer'>
-                    <input 
-                    id='searchBox' 
-                    type="text" 
-                    onChange={(e) => setSearch(e.target.value)} 
-                    />
-                </div>
+            <div className='container'>
                     {data
                     .filter((word) => {
                         return search.toLowerCase() === ''
@@ -43,9 +26,9 @@ const Words = ({sendMes}) => {
                                 <div id='word'>
                                     {word.mien.toLowerCase()}</div>
                                 <div id='details'>
-                                    <div id='pos'>
+                                    <div id='top'>
                                         {word.pos}</div>
-                                    <div id='ipa'>
+                                    <div id='btm'>
                                         / {word.ipa} /</div></div></div>
                             <div id='meanings'>
                                 <div id='meaning'>
