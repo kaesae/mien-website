@@ -38,28 +38,21 @@ const Words = ({sendMes}) => {
                             setIt(data.id);
                             console.log(data);
                         }} 
-                        id='card'
-                        className='wordCard'>
-                            <div className='wordContainer'>
-                                <div className='word'>
+                        id='card'>
+                            <div id='wordDetails'>
+                                <div id='word'>
                                     {word.mien.toLowerCase()}</div>
-                            </div>
-                            <div className='details'>
-                                <div className='detailsTop'>
-                                    {word.pos}
-                                    </div>
-                                <div className='detailsBot'>
-                                    / {word.ipa} /
-                                    </div>
-                            </div>
-                            <div className='meaningContainer'>
-                                <div>
+                                <div id='details'>
+                                    <div id='pos'>
+                                        {word.pos}</div>
+                                    <div id='ipa'>
+                                        / {word.ipa} /</div></div></div>
+                            <div id='meanings'>
+                                <div id='meaning'>
                                     <p id='def'>
                                         {word.eng}</p>
                                     <p id='ex'>
-                                        {word.mex1} [{word.mtr1}]</p>
-                                </div>
-                            </div>
+                                        {word.mex1} [{word.mtr1}]</p></div></div>
                         </button>
                     ))}
                     
